@@ -1,0 +1,80 @@
+.quatre {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+
+.container .camion {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(46, 46, 46);
+  top: 21%;
+  left: 6%;
+  width: 650px;
+  font-size: 10px;
+}
+
+.container .client {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(46, 46, 46);
+  top: 20%;
+  left: 31%;
+  width: 650px;
+  font-size: 10px;
+}
+
+.container .satisfait {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(46, 46, 46);
+  top: 20%;
+  left: 56%;
+  width: 650px;
+  font-size: 10px;
+}
+
+.container .securise {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(46, 46, 46);
+  top: 20%;
+  left: 81%;
+  width: 650px;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .container .client {
+    top: 29%;
+    left: 21%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .container .camion {
+    top: 4%;
+    left: 21%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .container .satisfait {
+    top: 54%;
+    left: 21%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .container .securise {
+    top: 78%;
+    left: 21%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

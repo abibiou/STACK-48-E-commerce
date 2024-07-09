@@ -1,0 +1,112 @@
+.container {
+    position: relative;
+  }
+  .container .btn{
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    height: 45px;
+    max-width: 150px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(129, 129, 129);
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .container .bouttonveste{
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    height: 32px;
+    max-width: 85px;
+    background-color: rgb(255, 255, 255);
+    color: #6f4e2f;
+    border: none;
+    opacity: 0.9;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .container .bouttonnike{
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    height: 32px;
+    max-width: 85px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: #d98c33;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .container .bouttonjean{
+    position: absolute;
+    top: 75%;
+    left: 54%;
+    height: 32px;
+    max-width: 85px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: #8ec2f4;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .container .bouttonmaillot{
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    height: 32px;
+    max-width: 85px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color:#d4c25e;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .container .bouttonsweat{
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    height: 32px;
+    max-width: 85px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: #86c987;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  
+  .container .bouttonshort{
+    position: absolute;
+    top: 75%;
+    left: 77%;
+    height: 32px;
+    max-width: 85px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color: #323232;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }

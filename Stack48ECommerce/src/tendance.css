@@ -1,0 +1,80 @@
+.tendance{
+    height: 400px;
+    filter : brightness(60%);
+  }
+  
+  .container .texthomme{
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: aliceblue;
+    top: 68%;
+    left: 3%;
+    font-size: 1.5rem;
+  }
+  .container .textfemme{
+ 
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 27px;
+  }
+  .container .textenfant{
+
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: aliceblue;
+    top: 68%;
+    left: 69%;
+    font-size: 27px;
+  }
+ 
+  .tendanceboutton{
+
+    padding-block: 5px;
+    height: 37px;
+    width: 160px;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.9;
+      color:rgb(129, 129, 129);;
+      border: none;
+      cursor: pointer;
+      border-radius: 25px;
+      font-family:  "Poppins", sans-serif;
+      font-weight: 600;
+    }
+    .tendanceboutton2{
+      padding-block: 5px;
+      height: 37px;
+      width: 160px;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.9;
+      color:rgb(129, 129, 129);;
+      border: none;
+      cursor: pointer;
+      border-radius: 25px;
+      font-family:  "Poppins", sans-serif;
+      font-weight: 600;
+    }
+    .tendanceboutton3{
+      padding-block: 5px;
+      height: 37px;
+      width: 160px;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.9;
+      color:rgb(129, 129, 129);;
+      border: none;
+      cursor: pointer;
+      border-radius: 25px;
+      font-family:  "Poppins", sans-serif;
+      font-weight: 600;
+    }
+
+    @media screen and (max-width: 1400px) {
+      .tendanceboutton3{
+ 
+      }
+    }
+    
