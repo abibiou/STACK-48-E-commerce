@@ -1,3 +1,4 @@
+import gazelle from "../img/gazelle.jpg"
 function Homme() {
     return (
 
@@ -48,7 +49,7 @@ function Homme() {
                 <div class="row mt-3">
                     <div class="col-12 ">
                     <button type="button" class="btn btn-primary boutonn">Découvrir</button>
-                         <img class="card-img-top gazelle" src="img/gazelle.jpg"></img>
+                         <img class="card-img-top gazelle" src={gazelle}></img>
                             <h1 class="card-title textegazelle">ADIDAS GAZELLE : L'ICÔNE INTEMPORELLE  DE STYLE <br></br> ET DE CONFORT EST DE RETOUR</h1>
                            
                         </div>
