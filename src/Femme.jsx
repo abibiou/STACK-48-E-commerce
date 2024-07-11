@@ -14,12 +14,12 @@ function Homme() {
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link mx-lg-2" href="App">Accueil</a>
+                                    <a class="nav-link mx-lg-2" href="#">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mx-lg-2 active" aria-current="page" href="Homme">Homme</a>
+                                    <a class="nav-link mx-lg-2" href="Homme">Homme</a>
                                 </li> <li class="nav-item">
-                                    <a class="nav-link mx-lg-2" href="Femme">Femme</a>
+                                    <a class="nav-link mx-lg-2 active" aria-current="page" href="Femme">Femme</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mx-lg-2" href="#">Collection</a>
@@ -42,19 +42,19 @@ function Homme() {
                     <img class="card-img-top panier ms-3" src="img/panier.png"></img>
                     </a>
                 </div>
-            </nav> 
+            </nav>
 
             <div class="container-fluid">
                 <div class="row mt-3">
                     <div class="col-12 ">
-                    <button type="button" class="btn btn-primary boutonn">Découvrir</button>
-                         <img class="card-img-top gazelle" src="img/gazelle.jpg"></img>
-                            <h1 class="card-title textegazelle">ADIDAS GAZELLE : L'ICÔNE INTEMPORELLE  DE STYLE <br></br> ET DE CONFORT EST DE RETOUR</h1>
-                           
-                        </div>
                         <button type="button" class="btn btn-primary boutonn">Découvrir</button>
+                        <img class="card-img-top gazelle" src="img/robe.jpg"></img>
+                        <h1 class="card-title textegazelle">DÉCOUVREZ NOS ROBES D'ÉTÉ EN <br></br>PROMO : STYLE ET FRAÎCHEUR À PRIX LÉGER.</h1>
+
                     </div>
+                    <button type="button" class="btn btn-primary boutonn">Découvrir</button>
                 </div>
+            </div>
 
             <section>
                 <div class="container">
@@ -66,15 +66,15 @@ function Homme() {
                     </div>
                 </div>
                 <div class="container">
-                    <h6 class="tshirttitre mt-3"> Sortez avec les meilleurs t-shirt à couleur unique pour l'été  </h6>
+                    <h6 class="tshirttitre mt-3"> Découvrez la nouvelle collection de New Balance jusqu'à -40%  </h6>
                 </div>
-                <div class="container-fluid ms-4">
+                <div class="container-fluid ms-4 humg">
                     <div class="row mt-1">
                         <div class="col-sm-2 col-md-2 col-lg-2 rounded mb-5">
                             <div class="offcanvas-body mt-3">
                                 <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                     <li class="nav-item">
-                                        <h4>Homme</h4>
+                                        <h4>Femme</h4>
                                         <h5>Soldes jusqu'à -50%</h5>
                                         <a class="nav-link mx-lg-2" aria-current="page" href="#">Voir tout</a>
                                     </li>
@@ -93,59 +93,27 @@ function Homme() {
                                     <li class="nav-item">
                                         <a class="nav-link mx-lg-2" href="#">Sweats à capuches et pulls</a>
                                     </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link mx-lg-2" href="#">Voir tout</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link mx-lg-2" href="#">Basiques</a>
-                                    </li><li class="nav-item">
-                                        <a class="nav-link mx-lg-2" href="#">Accessoires</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link mx-lg-2" href="#">Chaussures</a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-2  col-lg-2 mx-4 rounded  ">
+                        <div class="col-sm-5 col-md-2  col-lg-5 rounded m-0 ">
 
-                            <img src="img/tshirtbleu.jpg" class="card-img-top habitss"></img>
+                            <img src="img/nb2.jpeg" class="card-img-top nb"></img>
                             <div class="card-body">
-                                <h5 class="card-title mt-3 produitpromoo">T-shirt couleur unie bleu</h5>
-                                <p class="card-text mt-2 prix">17,99€ <span class="maclasse"></span></p>
+                                <h5 class="card-title mt-3 produitpromoo ms-4">New balance 327</h5>
+                                <p class="card-text mt-2 prix ms-4">107,99€ <span class="maclasse">180€</span></p>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-2 col-lg-2  mx-4 rounded ">
-                            <img src="img/tshirtnoir.jpg" class="card-img-top habitss"></img>
+                        <div class="col-sm-5 col-md-2 col-lg-5  rounded m-0">
+                            <img src="img/nbfemme1.webp" class="card-img-top nbb"></img>
                             <div class="card-body">
-                                <h5 class="card-title mt-3 produitpromoo" >T-shirt couleur unie noir</h5>
-                                <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
-                            </div>
-                        </div>
-                        <div class="col-sm-5 col-md-2 col-lg-2 mx-4 ">
-                            <img src="img/tshirtrouge.jpg" class="card-img-top habitss"></img>
-                            <div class="card-body">
-                            <a href="Achat">
-                                <h5 class="card-title mt-3 produitpromoo">T-shirt couleur unie rouge</h5>
-                                </a>
-                                <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
-                            </div>
-                        </div>
-                        <div class="col-sm-5 col-md-2 col-lg-2 mx-4 ">
-                        <a href="Achat">
-                            <img src="img/tshirtbeige.jpg" class="card-img-top habitss"></img>
-
-                            </a>
-                            <div class="card-body">
-                                <a href="Achat">
-                                <h5 class="card-title mt-3 produitpromoo">T-shirt couleur unie beige</h5>
-                                </a>
-                                <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
+                                <h5 class="card-title mt-3 produitpromoo" >New balance 327</h5>
+                                <p class="card-text  mt-2 prix">107,99€ <span class="maclasse">180€</span></p>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <div class="container">
                     <h6 class="tshirttitre mt-5"> Nos lot de 2 shorts en promotions </h6>
                 </div>
@@ -190,28 +158,28 @@ function Homme() {
                             </div>
                         </div>
                         <div class=" col-lg-2 mx-4 rounded ">
-                            <img src="img/short1.jpg" class="card-img-top habitss"></img>
+                            <img src="img/jeanfemme.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
                         </div>
                         <div class=" col-lg-2  mx-4 rounded ">
-                            <img src="img/short2.jpg" class="card-img-top habitss"></img>
+                            <img src="img/jeanfmeme3.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4 ">
-                            <img src="img/short3.jpg" class="card-img-top habitss"></img>
+                            <img src="img/jeanfemme2.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4 ">
-                            <img src="img/short 4.jpg" class="card-img-top habitss"></img>
+                            <img src="img/jeanfemme4.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
@@ -262,31 +230,94 @@ function Homme() {
                             </div>
                         </div>
                         <div class=" col-lg-2 mx-4 rounded ">
-                            <img src="img/dunk1.png" class="card-img-top habitss"></img>
+                            <img src="img/jeanfemme5.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Dunk</h5>
                                 <p class="card-text mt-2 prix">129,99€</p>
                             </div>
                         </div>
                         <div class="  col-lg-2 mx-4 rounded ">
-                            <img src="img/tnblack.jpg" class="card-img-top habitss"></img>
+                            <img src="img/vestefemme4.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo" >Air Max TN</h5>
                                 <p class="card-text  mt-2 prix">169,99€</p>
                             </div>
                         </div>
                         <div class=" col-lg-2 mx-4">
-                            <img src="img/airmax90.png" class="card-img-top habitss"></img>
+                            <img src="img/vsetefemme2.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Air max 90</h5>
                                 <p class="card-text  mt-2 prix">159,99€</p>
                             </div>
                         </div>
                         <div class=" col-lg-2  mx-4">
-                            <img src="img/dunk3.png" class="card-img-top habitss"></img>
+                            <img src="img/vestefemme3.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Dunk</h5>
                                 <p class="card-text  mt-2 prix">129,99€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h6 class="tshirttitre mt-5">Nike Sportswear Tech Fleece Windrunner </h6>
+                </div>
+                <div class="container-fluid ms-4 ps-2">
+                    <div class="row mt-1">
+
+                        <div class="col-sm-6 col-md-6 col-lg-2  rounded ">
+                            <div class="offcanvas-body mt-3">
+                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" aria-current="page" href="#"></a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li> <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <br></br>
+                                    <h5></h5>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li><li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="col-sm-5 col-md-2  col-lg-5 rounded m-0 ">
+
+                            <img src="img/niketechfemme.jpg" class="card-img-top nb"></img>
+                            <div class="card-body">
+                                <h5 class="card-title mt-3 produitpromoo ms-4">New balance 327</h5>
+                                <p class="card-text mt-2 prix ms-4">107,99€ <span class="maclasse">180€</span></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-md-2 col-lg-5  rounded m-0">
+                            <img src="img/niketechfemme3.jpg" class="card-img-top nbb"></img>
+                            <div class="card-body">
+                                <h5 class="card-title mt-3 produitpromoo" >New balance 327</h5>
+                                <p class="card-text  mt-2 prix">107,99€ <span class="maclasse">180€</span></p>
                             </div>
                         </div>
                     </div>
@@ -340,7 +371,7 @@ function Homme() {
 
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4 mt-3 rounded ">
 
-                            <img src="img/maillotfr.png" class="card-img-top habitss"></img>
+                            <img src="img/bonnet2.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Maillot Nike France 2024</h5>
                                 <p class="card-text mt-2 prix">107,99€ <span class="maclasse"></span></p>
@@ -348,21 +379,99 @@ function Homme() {
 
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mt-3  mx-4 rounded ">
-                            <img src="img/maillotmexico.webp" class="card-img-top habitss"></img>
+                            <img src="img/bonnet.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo" >Maillot Adidas Mexique 2024</h5>
                                 <p class="card-text  mt-2 prix">102,99€</p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4 mt-3 ">
-                            <img src="img/maillotpb.png" class="card-img-top habitss"></img>
+                            <img src="img/bonnet3$.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Maillot Nike Pays-Bas 2024</h5>
                                 <p class="card-text  mt-2 prix">102,99€</p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4  mt-3">
-                            <img src="img/maillotpdg.webp" class="card-img-top habitss"></img>
+                            <img src="img/bonnet4.jpg" class="card-img-top habitss"></img>
+                            <div class="card-body">
+                                <h5 class="card-title mt-3 produitpromoo">Maillot Nike Pays-De-Galles 2024</h5>
+                                <p class="card-text  mt-2 prix">102,99€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   <div class="container">
+                    <h6 class="tshirttitre mt-5">Les meilleurs maillots du moment </h6>
+                </div>
+                <div class="container-fluid ms-4 ps-2">
+                    <div class="row mt-1">
+
+                        <div class="col-sm-6 col-md-6 col-lg-2  rounded ">
+                            <div class="offcanvas-body mt-3">
+                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" aria-current="page" href="#"></a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li> <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <br></br>
+                                    <h5></h5>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li><li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link mx-lg-2" href="#"></a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4 mt-3 rounded ">
+
+                            <img src="img/o1.jpg" class="card-img-top habitss"></img>
+                            <div class="card-body">
+                                <h5 class="card-title mt-3 produitpromoo">Maillot Nike France 2024</h5>
+                                <p class="card-text mt-2 prix">107,99€ <span class="maclasse"></span></p>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-2 mt-3  mx-4 rounded ">
+                            <img src="img/o14.jpg" class="card-img-top habitss"></img>
+                            <div class="card-body">
+                                <h5 class="card-title mt-3 produitpromoo" >Maillot Adidas Mexique 2024</h5>
+                                <p class="card-text  mt-2 prix">102,99€</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4 mt-3 ">
+                            <img src="img/p2.jpg" class="card-img-top habitss"></img>
+                            <div class="card-body">
+                                <h5 class="card-title mt-3 produitpromoo">Maillot Nike Pays-Bas 2024</h5>
+                                <p class="card-text  mt-2 prix">102,99€</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4  mt-3">
+                            <img src="img/o3.jpg" class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Maillot Nike Pays-De-Galles 2024</h5>
                                 <p class="card-text  mt-2 prix">102,99€</p>
@@ -371,6 +480,21 @@ function Homme() {
                     </div>
                 </div>
             </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <footer class="bg-dark py-5 mt-5">
                 <div class="container text-light text-center">
                     <p class="display-5 mb-3">ABI SHOP</p>
@@ -427,9 +551,9 @@ function Homme() {
                             <div class="col-3 rounded ">
                                 <p>Abonnez-vous à notre mail</p>
                                 <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -437,7 +561,7 @@ function Homme() {
 
             </footer>
         </section>
-        
+
     )
 }
 

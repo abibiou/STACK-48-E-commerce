@@ -22,6 +22,7 @@ function App() {
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Abi shop</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                
                             </div>
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
@@ -32,7 +33,7 @@ function App() {
                                     <li class="nav-item">
                                         <a class="nav-link mx-lg-2" href="Homme">Homme</a>
                                     </li> <li class="nav-item">
-                                        <a class="nav-link mx-lg-2" href="#">Femme</a>
+                                        <a class="nav-link mx-lg-2" href="Femme">Femme</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link mx-lg-2" href="#">Collection</a>
@@ -51,6 +52,9 @@ function App() {
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                        <a href="Achat" class="">
+                    <img class="card-img-top panier ms-3" src="img/panier.png"></img>
+                    </a>
                     </div>
                 </nav>
             </section>
@@ -269,7 +273,7 @@ function App() {
                 </section>
                 <div class="container">
                     <div class="row mt-5">
-                        <div class="col-sm-4 mb-3 mb-sm-0 rounded position-relative">
+                        <div class="col-sm-4 mb-3 rounded position-relative">
                             <img src="img/homme.jpg" class="card-img-top  tendance"></img>
                             <div class= "position-absolute bottom-0 start-0 ps-4 mb-5">
                             <p class="card-text texthomme">TENDANCE HOMME</p>
@@ -281,7 +285,7 @@ function App() {
                             <img src="img/femme.jpg" class="card-img-top tendance"></img>
                             <div class= "position-absolute bottom-0 start-0 ps-4 mb-5">
                             <p class=" card-text textfemme">TENDANCE FEMME  </p>
-                            <button type="button" class="tendanceboutton2 btn-primary">Découvrir</button>
+                            <button type="button" class="tendanceboutton btn-primary">Découvrir</button>
                         </div>
                         </div>
                        
@@ -289,7 +293,7 @@ function App() {
                             <img src="img/enfant.jpg" class="card-img-top tendance"></img>
                             <div class= "position-absolute bottom-0 start-0 ps-4 mb-5">
                         <p class="card-text textenfant">TENDANCE ENFANT </p>
-                        <button type="button" class="tendanceboutton3 btn-primary">Découvrir</button>
+                        <button type="button" class="tendanceboutton btn-primary">Découvrir</button>
                     </div>
                 </div>
                 </div>
@@ -318,6 +322,44 @@ function App() {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-12 rounded ">
+                            <img src="img/haland.png" class="card-img-top deux"></img>
+                            <div class="card-img-overlay">
+
+                                <p class="textniketech">DÉCOUVREZ LE NOUVEAU MODÈLE NIKE TECH : L'EXCELLENCE DE LA PERFORMANCE ET DU CONFORT !</p>
+                                <p class="card-text texteniketech2">Associant deux de leurs looks les plus emblématiques, ce sweat à capuche et zip Nike Tech Fleece
+                                    s'inspire de la veste Windrunner intemporelle.
+                                    Sa coupe sportive et décontractée au niveau des épaules, de la poitrine et du corps permet de la porter facilement
+                                    par-dessus d'autres vêtements. Le Fleece premium lisse des deux côtés est encore plus chaud et
+                                    doux qu'avant, sans sacrifier la légèreté</p>
+                                <button type="button" class="btn btn-primary bouton">ACHETER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
+                            <img src="img/veste.jpg" class="card-img-top"></img>
+                        </div>
+                        <button type="button" class="bouttonveste btn-primary bouton">Voir</button>
+                        <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
+                            <img src="img/nike.png" class="card-img-top"></img>
+                        </div>
+                        <button type="button" class="bouttonnike btn-primary bouton">Voir</button>
+                        <div class="col-sm-12 col-md-12 col-lg-6 mb-3 ">
+                            <img src="img/jeann.jpg" class="card-img-top"></img>
+                        </div>
+                        <button type="button" class="bouttonjean btn-primary bouton">Voir</button>
+                    </div>
+                </div>
+
             </section>
             <footer class="bg-dark py-5 mt-5">
                 <div class="container text-light text-center">

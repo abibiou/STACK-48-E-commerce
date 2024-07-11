@@ -1,3 +1,8 @@
+/*Ici vous trouverez le prix des produits avec les nom de la page d'accueil et aussi pour homme et femme a la fois */
+/*Ligne 59 pour les boutons tendances */
+
+
+/* les prix barré (elle s'appelle toujours ma class)  */
 .maclasse{
     text-decoration:line-through;
     font-family:  "Poppins", sans-serif;
@@ -5,16 +10,15 @@
     font-size: 15px;
     color: #323232;
   }
-  .produitpromooo{
-    color: rgb(0, 0, 0);
-  }
+
+  /* prix des produits pour homme et femme */
   .prix{
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: crimson;
   }
-  
+   /*les produits de la page d'accueil avec un petit zoom */ 
   .habits{
     transition: transform .3s;
   }
@@ -23,28 +27,84 @@
       -webkit-transform: scale(1.05); /* Safari 3-8 */
       transform: scale(1.05);
       }
-  
+   /*titre de tout les h2 */ 
       h2{
         text-align: center;
         font-family: "Poppins", sans-serif;
         font-weight: 800;
         color: rgb(39, 39, 39);
       }
-      .textpromo {
-        text-align: center;
-        color:rgb(91, 91, 91);
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-size: 15px;
+
+/* texte sous les h2 de l'accueil comme par exemple : Économisez aujourd'hui, profitez demain : Nos promos vont vous surprendre ! */
+.textpromo {
+  text-align: center;
+  color:rgb(91, 91, 91);
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-size: 15px;
       }
-      .produitpromo{
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
+/*nom des produits de la page d'accueil */
+.produitpromo{
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
       }
 
-      @media screen and (max-width: 1400px) {
-        .textpromo{
+@media screen and (max-width: 1400px) {
+.textpromo{
           font-size: 13px;
         }
-      }
-      
+    }
+
+
+/*Partie boutons pour la rubrique tendance */
+
+/* Taille des image pour hommme femme enfant  */
+.tendance{
+  height: 400px;
+  filter : brightness(60%);
+}
+
+.container .texthomme{
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  top: 68%;
+  left: 3%;
+  font-size: 1.5rem;
+}
+.container .textfemme{
+
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 27px;
+}
+.container .textenfant{
+
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  top: 68%;
+  left: 69%;
+  font-size: 27px;
+}
+
+.tendanceboutton {
+
+  padding-block: 5px;
+  height: 37px;
+  width: 160px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    color:rgb(129, 129, 129);;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
+  

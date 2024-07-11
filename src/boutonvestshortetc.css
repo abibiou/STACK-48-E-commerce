@@ -15,6 +15,143 @@
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
   }
+
+  .container .boutonnn{
+    color: #000000;
+    top: 20%;
+    left: 2%;
+    height: 45px;
+    max-width: 150px;
+    background-color: none;
+    border: 2px solid #343a40;
+    cursor: pointer;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .container .boutonnnn{
+    color: #000000;
+    top: 20%;
+    left: 12%;
+    height: 45px;
+    max-width: 150px;
+    background-color: none;
+    cursor: pointer;
+    border-radius: 0px;
+    border: 2px solid #343a40;
+    cursor: pointer;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .container .boutonnnnn{
+    color: #000000;
+    top: 20%;
+    left: 22%;
+    height: 45px;
+    max-width: 150px;
+    background-color: none;
+    border: 2px solid #343a40;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
+
+  .container .boutonnnnnn{
+    color: #000000;
+    top: 20%;
+    left: 32%;
+    height: 45px;
+    max-width: 150px;
+    cursor: pointer;
+    background-color: none;
+    border: 2px solid #343a40;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .container .ajtpanier{
+    color: #ffffff;
+    margin-top: 85px;
+    left: 2%;
+    height: 55px;
+    max-width: 680px;
+    cursor: pointer;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .container .terminermacommande{
+    color: #ffffff;
+    margin-top: -140px;
+    left: 69%;
+    height: 55px;
+    max-width: 1580px;
+    cursor: pointer;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    width: 360px;
+  }
+  .container .connexionoffre{
+    color: #ffffff;
+    margin-top: -360px;
+    left: 69%;
+    height: 40px;
+    max-width: 1580px;
+    cursor: pointer;
+    background-color: #77B5FE;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    width: 360px;
+  }
+  .container .boutonnnnnnn{
+    color: #000000;
+    top: 20%;
+    left: 44%;
+    height: 45px;
+    max-width: 150px;
+    border: 2px solid #343a40;
+    cursor: pointer;
+    background-color: none;
+    cursor: pointer;
+    border-radius: 0px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .boutonnnnnnn:hover {
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .boutonnnnnn:hover {
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+
+  }.boutonnnnn:hover {
+    background-color: #343a40;
+    color: rgb(241, 242, 216);
+
+  }.boutonnn:hover {
+    background-color: #343a40;
+    color: rgb(241, 242, 216);
+
+  }.boutonnnn:hover {
+    background-color: #343a40;
+    color: rgb(241, 242, 216);
+
+  }
   .container .bouttonveste{
     position: absolute;
     top: 75%;

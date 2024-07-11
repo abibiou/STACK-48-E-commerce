@@ -17,6 +17,31 @@ body {
   height: 250px;
   border-radius: 12px;
 }
+/* Taille de l'icone panier  */
+.panier{
+  width: 30px;
+  height: 30px;
+}
+/* Produit pour les femmes ou il y a que 2 produit dans la ligne et celle ci c la premiere */
+.nb{
+  width: 650px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+/* Produit pour les femmes ou il y a que 2 produit dans la ligne et celle ci c la deuxieme */
+.nbb{
+  width: 650px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 90px;
+}
+  /* enlever les liens  */
+  a{
+    text-decoration: none;
+    color: black;
+   }
+/* les habits homme et femme */
 .habitss{
   width: 320px;
   height: 450px;
@@ -25,11 +50,13 @@ body {
 .habitss{
   transition: transform .3s;
 }
-  .habitss:hover{
+.habitss:hover{
     -ms-transform: scale(1.01); /* IE 9 */
     -webkit-transform: scale(1.01); /* Safari 3-8 */
     transform: scale(1.01);
     }
+
+/* premiere image de l'accueil */ 
 .premier {
   object-fit: cover;
   width: 100%;
@@ -37,6 +64,7 @@ body {
   border-radius: 12px;
   margin-top: 90px;
 }
+/* premiere image pour homme et femme */ 
 .gazelle {
   object-fit: cover;
   width: 100%;
@@ -45,9 +73,8 @@ body {
   margin-top: 90px;
   filter: brightness(70%);
 }
-/* Menu */
 
-/* Haaland */
+/* image ou il a Erling Haaland */
 .deux {
   width: 100%;
   height: 450px;
@@ -55,12 +82,8 @@ body {
   object-fit: cover;
   filter: brightness(60%);
 }
-
-.newbalance {
-  filter: brightness(60%);
-}
 .container {
-  position: relative; /* Ajouter cette ligne */
+  position: relative; 
 }
 .container .textniketech {
   position: absolute;
@@ -84,21 +107,37 @@ body {
   width: 250px;
   font-size: 10px;
 }
+/* image le promo de new balance */
+.newbalance {
+  filter: brightness(60%);
+}
+.container .textnewbalance {
+  position: absolute;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  top: 18%;
+  left: 6%;
+  width: auto;
+  font-size: 1.5 vw; 
+}
+
+
+/* Page accueil le background gris avec les marque et lestaille */
 .grey {
   height: 150px;
   background-color: rgb(239, 239, 239);
 }
-
 .marque {
   object-fit: cover;
   width: 130px;
   height: 130px;
 }
-
 .margingris {
   margin-top: 80px;
 }
-
+/* Partie footer */
 .textfooter {
   font-weight: 400;
 }
@@ -117,16 +156,3 @@ body {
     margin-top: 70px;
   }
 }
-
-.container .textnewbalance {
-  position: absolute;
-  font-family: "Bowlby One SC", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: aliceblue;
-  top: 18%;
-  left: 6%;
-  width: auto;
-  font-size: 1.5 vw; 
-}
-

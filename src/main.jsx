@@ -6,13 +6,20 @@ import {
 } from "react-router-dom";
 import App from './App.jsx'
 import Homme from './Homme.jsx'
+import Achat from './Achat.jsx'
+import Femme from './Femme.jsx'
+import Panier from './Panier.jsx'
+import './Panier.css'
 import './Homme.css'
+import './Femme.css'
 import './index.css'
+import './achat.css'
 import './promo.css'
 import './navbar.css'
 import './tendance.css'
 import './boutonvestshortetc.css'
 import './sastifactionclientetc.css'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +29,19 @@ const router = createBrowserRouter([
     path: "/Homme",
     element: <Homme />,
   },
+  {
+    path: "/Achat",
+    element: <Achat />,
+  },
+  {
+    path: "/Femme",
+    element: <Femme />,
+  },
+  {
+    path: "/Panier",
+    element: <Panier />,
+  },
+
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

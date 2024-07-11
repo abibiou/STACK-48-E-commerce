@@ -1,0 +1,90 @@
+/* T-shirt beige et les 4 image il y a juste un margin top à cause du nav  */
+.leproduit{
+    margin-top: 100px;
+    border: none;
+}
+/* T-shirt beige taille  */
+.photoshirt{
+    width: 100%;
+}
+/* T-shirt des 4 images du t shirt beige  */
+.photoshirtt{
+    width: 100%;
+    border-radius: 0px;
+}
+/* Texte de Livraison offerte sous 3 à 4 jours, Retours gratuits sous 30 jours, Payez en 4X sans frais avec PayPal  */
+
+.livraison{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+/* Texte T-SHIRT COULEUR UNIE  */ 
+.texteachat{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 120px;
+}
+
+/* Enlever la bordure  */ 
+.card, .photoshirt, .photoshirtt, .cercle, .boutonnn, .boutonnnn, .boutonnnnn, .boutonnnnnn, .boutonnnnnnn, .ajtpanier {
+    border: none;
+}
+/* le prix du t-shirt beige*/
+.prixx{
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: crimson;
+  }
+
+/* le prix d'origine barré */
+.maclassse{
+    text-decoration:line-through;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #323232;
+}
+
+
+/* mot description */
+.descriptionmt{
+    margin-top: 197px;
+}
+/* texte des description */
+.descriptionn{
+    width: 450px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* alignement des couleur cercle */
+.cerclecouleur{
+    display: flex;
+    flex-direction: row;
+}
+/* taille des cercle */
+.cercle{
+    height: 50px;
+    width: 50px;
+}
+/* iconne livraison etc.. */ 
+.livr{
+    height: 50px;
+    width: 50px;
+}
+
+/* texte couleur/beige */
+.color{
+   margin-top: 30px;
+}
+
+/* ligne noir */
+.fine-line { 
+    border: none; 
+    border-top: 1px solid #000000; 
+    margin: 20px 0;  
+}

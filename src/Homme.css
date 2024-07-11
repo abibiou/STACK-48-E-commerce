@@ -1,3 +1,5 @@
+/*Ici vous trouverez les élement pour la page homme et femme qui peut aussi se trouver le css promo et index  */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,38 @@
     font-weight: 600;
     font-style: normal;
   }
+/* Bouton découvrir de la premire image*/
+.boutonn{
+  color: rgb(129, 129, 129);
+  background-color: aliceblue;
+  border: none;
+  position: absolute;
+  top: 47%;
+  left: 2%;
+  height: 45px;
+  max-width: 180px;
+  border-radius: 25px;
+  font-family:  "Poppins", sans-serif;
+  font-weight: 600;
+}
 
+  /* Titre de chaque partie des produits exemple -> Sortez avec les meilleurs t-shirt à couleur unique pour l'été  */
+  .tshirttitre{
+    margin-left: 130px;
+  }
+  .tshirttitre{
+    margin-left: 130px;
+  }
+  
+  .tshirttitre{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+  
+  }
+  
+/*Texte de ADIDAS GAZELLE : L'ICÔNE INTEMPORELLE  DE STYLE <br></br> ET DE CONFORT EST DE RETOUR*/
 .textegazelle{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -19,6 +52,8 @@
     left: 2%;
     color: azure;
 }
+
+/*Icone filtrer  */
 .filtre{
   object-fit: cover;
   width: 25px;
@@ -26,24 +61,14 @@
   margin-left: 7px;
   text-decoration: none;
 }
-
+/* alignement du mot filtrer avec l'icone filtrer */
 .image-container{
   display: flex; 
   align-items: center;  
   text-decoration: none;
   margin-left: 130px;
 }
-.textetshirt{
-  text-align: left;
-  color: rgb(117, 117, 117);
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 130px;
-}
-.tshirttitre{
-  margin-left: 130px;
-}
+/* Nom des produit de la page homme et femme*/
 .produitpromoo{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -51,21 +76,33 @@
   font-size: 15px;
 }
 
+/* Produit pour les femmes ou il y a que 2 produit dans la ligne  */
+.nb{
+  width: 250px;
+  height: 900px;
+}
+
+/* prix des produits pour homme et femme */
+.prix{
+  font-family:  "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: crimson;
+}
+/* le prix des produits */
 .prixx{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 17px;
 }
+ 
 
-.tshirttitre{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  text-align: left;
-
-}
-
-.voirlesarticles{
-  text-decoration: none;
+/* barrage des prix */
+.maclasse{
+  text-decoration:line-through;
+  font-family:  "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #323232;
 }

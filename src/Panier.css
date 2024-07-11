@@ -1,0 +1,143 @@
+
+.cart-item {
+    
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+}
+.coterprix {
+    
+    background-color: #f6f6f6;
+    padding: 20px;
+    height: 650px;
+    border-radius: 20px;
+ 
+}
+.btn-finish {
+    background-color: black;
+    color: white;
+}
+.arrireplan{
+    padding: 10px;
+    display: inline-block;
+}
+.arrireplan img {
+    max-width: 150px;
+}
+.titrepanier{
+    margin-top: 105px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.élement{
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.élementt{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 525px;
+    margin-top: -175px;
+}
+.plusetmoin{
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+}
+
+.nombre{
+     width: 30px;
+     height: 30px;
+     margin-top: 12px;
+     border-radius: 10px;
+     border: 1px solid #eaeaea;
+     margin-left: 10px;
+}
+.prixxx{
+    color: red;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.title{
+    margin-left: 10px;
+}
+
+
+.vert{
+    color: rgb(79, 197, 79);
+}
+
+.remise{
+    font-size: 11px;
+    color: #6c6c6c;
+}
+
+.connectezvous{
+    width: 700px;
+    font-size: 13px;
+}
+.totaldelacommande{
+    width: 700px;
+    font-size: 18px;
+}
+.connectezvouss {
+    color: red;
+    font-size: 15px;
+}
+.aa{
+
+        display: flex;
+        justify-content: space-between;
+    
+}
+
+.adroite{
+    margin-left: 95px;
+}
+
+.adroitee{
+    margin-left: 95px;
+    color: red;
+    font-size: 15px;
+}
+.adroiteee{
+    margin-left: 95px;
+    font-size: 18px;
+}
+.text-danger{
+        margin-top: 105px;
+        color: red;
+}
+.maclasssee{
+    text-decoration:line-through;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #323232;
+}
+
+.Inforsurlesprixetlesfraisdelivraison{
+    font-size: 12px;
+    width: 400px;
+    color: rgb(108, 108, 108);
+}
+
+.fine-linee { 
+    border: none; 
+    border-top: 1px solid #000000; 
+    margin: 20px 0;  
+    margin-top: 70px;
+}
