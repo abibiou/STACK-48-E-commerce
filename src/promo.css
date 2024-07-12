@@ -1,70 +1,72 @@
-/*Ici vous trouverez le prix des produits avec les nom de la page d'accueil et aussi pour homme et femme a la fois */
-/*Ligne 59 pour les boutons tendances */
+/* Ici vous trouverez le prix des produits avec les nom de la page d'accueil et aussi pour homme et femme à la fois */
+/* Ligne 59 pour les boutons tendances */
 
+/* les prix barré (elle s'appelle toujours ma classe) */
+.maclasse {
+  text-decoration: line-through;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem; /* 15px to rem */
+  color: #323232;
+}
 
-/* les prix barré (elle s'appelle toujours ma class)  */
-.maclasse{
-    text-decoration:line-through;
-    font-family:  "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #323232;
-  }
+/* prix des produits pour homme et femme */
+.prix {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem; /* 20px to rem */
+  color: crimson;
+}
 
-  /* prix des produits pour homme et femme */
-  .prix{
-    font-family:  "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: crimson;
-  }
-   /*les produits de la page d'accueil avec un petit zoom */ 
-  .habits{
-    transition: transform .3s;
-  }
-    .habits:hover{
-      -ms-transform: scale(1.05); /* IE 9 */
-      -webkit-transform: scale(1.05); /* Safari 3-8 */
-      transform: scale(1.05);
-      }
-   /*titre de tout les h2 */ 
-      h2{
-        text-align: center;
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        color: rgb(39, 39, 39);
-      }
+/* les produits de la page d'accueil avec un petit zoom */ 
+.habits {
+  transition: transform 0.3s;
+}
+
+.habits:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+/* titre de tous les h2 */ 
+h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  color: rgb(39, 39, 39);
+}
 
 /* texte sous les h2 de l'accueil comme par exemple : Économisez aujourd'hui, profitez demain : Nos promos vont vous surprendre ! */
 .textpromo {
   text-align: center;
-  color:rgb(91, 91, 91);
-     font-family: "Poppins", sans-serif;
-     font-weight: 400;
-     font-size: 15px;
-      }
-/*nom des produits de la page d'accueil */
-.produitpromo{
-     font-family: "Poppins", sans-serif;
-     font-weight: 600;
-      }
-
-@media screen and (max-width: 1400px) {
-.textpromo{
-          font-size: 13px;
-        }
-    }
-
-
-/*Partie boutons pour la rubrique tendance */
-
-/* Taille des image pour hommme femme enfant  */
-.tendance{
-  height: 400px;
-  filter : brightness(60%);
+  color: rgb(91, 91, 91);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem; /* 15px to rem */
 }
 
-.container .texthomme{
+/* nom des produits de la page d'accueil */
+.produitpromo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1400px) {
+  .textpromo {
+    font-size: 0.8125rem; /* 13px to rem */
+  }
+}
+
+/* Partie boutons pour la rubrique tendance */
+
+/* Taille des images pour homme femme enfant */
+.tendance {
+  height: 25vh; /* 400px to vh */
+  filter: brightness(60%);
+}
+
+.container .texthomme {
   font-family: "Bowlby One SC", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -73,35 +75,36 @@
   left: 3%;
   font-size: 1.5rem;
 }
-.container .textfemme{
 
+.container .textfemme {
   font-family: "Bowlby One SC", sans-serif;
   font-weight: 800;
   font-style: normal;
   color: aliceblue;
-  font-size: 27px;
+  font-size: 1.6875rem; /* 27px to rem */
 }
-.container .textenfant{
 
+.container .textenfant {
   font-family: "Bowlby One SC", sans-serif;
   font-weight: 800;
   font-style: normal;
   color: aliceblue;
   top: 68%;
   left: 69%;
-  font-size: 27px;
+  font-size: 1.6875rem; /* 27px to rem */
 }
+
 .tendanceboutton {
-  padding-block: 5px;
-  height: 39px;
-  width: 140px;
-  font-size: 15px;
+  padding-block: 0.3125rem; /* 5px to rem */
+  height: 2.4375rem; /* 39px to rem */
+  width: 8.75rem; /* 140px to rem */
+  font-size: 0.9375rem; /* 15px to rem */
   background-color: rgb(255, 255, 255);
   opacity: 0.9;
   color: rgb(129, 129, 129);
   border: none;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 1.5625rem; /* 25px to rem */
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   transition: 0.3s ease, color 0.3s ease;

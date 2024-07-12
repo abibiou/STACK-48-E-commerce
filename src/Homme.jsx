@@ -34,7 +34,7 @@ function Homme() {
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link mx-lg-2" href="App">Accueil</a>
+                                    <a class="nav-link mx-lg-2" href="#">Accueil</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mx-lg-2 active" aria-current="page" href="Homme">Homme</a>
@@ -58,7 +58,7 @@ function Homme() {
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="Achat" class="">
+                    <a href="Panier" class="">
                     <img class="card-img-top panier ms-3" src={panier}></img>
                     </a>
                 </div>
@@ -391,70 +391,44 @@ function Homme() {
                     </div>
                 </div>
             </section>
-            <footer class="bg-dark py-5 mt-5">
-                <div class="container text-light text-center">
-                    <p class="display-5 mb-3">ABI SHOP</p>
-                    <small class="text-white-50">&copy; Abishop by Abibi. All rights reserved.</small>
-                    <div class="container">
-                        <div class="row mt-3">
-                            <div class="col-3 rounded ">
-                                <p>Abi Shop </p>
-                                <p class="textfooter">Votre destination ultime pour des produits tendance, des promos incroyables, et un service client inégalé</p>
-                            </div>
-                            <div class="col-3 rounded ">
-                                <p>Liens rapide</p>
-                                <div class="offcanvas-body mt-3">
-                                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                                        <li class="nav-item">
-                                            <a class="nav-link mx-lg-2" aria-current="page" href="#">Accueil</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link mx-lg-2" href="#">Homme</a>
-                                        </li> <li class="nav-item">
-                                            <a class="nav-link mx-lg-2" href="#">Femme</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link mx-lg-2" href="#">Collection</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link mx-lg-2" href="#">Marque</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link mx-lg-2" href="#">Promo</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                            <div class="col-3 rounded mt-3 ">
-                                <p>Nous contacter</p>
-                                <div class="offcanvas-body">
-                                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                                        <li class="nav-item">
-                                            <p class="textfooter" >+06576557102</p>
-                                        </li> <li class="nav-item">
-                                            <p class="textfooter" >4 rue du Général Leclerl 75014 Paris</p>
-                                        </li>
-                                        <li class="nav-item">
-                                            <p class="textfooter" >abishop@commerce.fr</p>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-                            </div>
-                            <div class="col-3 rounded ">
-                                <p>Abonnez-vous à notre mail</p>
-                                <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                            </div>
-                        </div>
-                    </div>
+            <footer  class="footer mt-5">
+                <div class="footer-content">
+                    <img src="src/img/AbiSHOPfooter.png" class="lelogo"></img>
+                    <p>Découvrez notre sélection unique de streetwear chez Abishop,
+                         où le style rencontre l'attitude urbaine, pour des tenues qui vous démarqueront à chaque instant.</p>
+                
+                <div class="icons">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
                 </div>
 
+                </div>
+                <div class="footer-content">
+                    <h4 class="titrefooter">SHOP</h4>
+                    <li> <a href="#">Femme</a></li>
+                    <li> <a href="#">Homme</a></li>
+                    <li> <a href="#">Enfant</a></li>
+                    <li> <a href="#">Collection</a></li>
+                    <li> <a href="#">Marque</a></li>
+                    <li> <a href="#">Promo</a></li>
+                </div>
+                <div class="footer-content">
+                    <h4 class="titrefooter">ENTREPRISE</h4>
+                    <li> <a href="#">À propos de ABISHOP</a></li>
+                    <li> <a href="#">Actualités </a></li>
+                    <li> <a href="#">Carrières</a></li>
+                    <li> <a href="#">Mission</a></li>
+                </div>
+                <div class="footer-content">
+                    <h4 class="titrefooter">HELP</h4>
+                    <li> <a href="#">Service Clients</a></li>
+                    <li> <a href="#">Mon compte</a></li>
+                    <li> <a href="#">Magasins</a></li>
+                    <li> <a href="#">Mentions légales et confidentialité</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </div>
             </footer>
         </section>
         

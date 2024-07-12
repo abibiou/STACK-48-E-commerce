@@ -1,108 +1,107 @@
-/*Ici vous trouverez les élement pour la page homme et femme qui peut aussi se trouver le css promo et index  */
+/*Ici vous trouverez les éléments pour la page homme et femme qui peut aussi se trouver le css promo et index */
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-  }
-  body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-/* Bouton découvrir de la premire image*/
-.boutonn{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bouton découvrir de la première image*/
+.boutonn {
   color: rgb(129, 129, 129);
   background-color: aliceblue;
   border: none;
   position: absolute;
-  top: 47%;
-  left: 2%;
-  height: 45px;
-  max-width: 180px;
-  border-radius: 25px;
-  font-family:  "Poppins", sans-serif;
+  top: 47vh; /* 47% to vh */
+  left: 2vw; /* 2% to vw */
+  height: 2.8125rem; /* 45px to rem */
+  max-width: 11.25rem; /* 180px to rem */
+  border-radius: 1.5625rem; /* 25px to rem */
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
-  /* Titre de chaque partie des produits exemple -> Sortez avec les meilleurs t-shirt à couleur unique pour l'été  */
-  .tshirttitre{
-    margin-left: 130px;
-  }
-  .tshirttitre{
-    margin-left: 130px;
-  }
-  
-  .tshirttitre{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: left;
-  
-  }
-  
-/*Texte de ADIDAS GAZELLE : L'ICÔNE INTEMPORELLE  DE STYLE <br></br> ET DE CONFORT EST DE RETOUR*/
-.textegazelle{
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    position: absolute;
-    bottom: 55%;
-    left: 2%;
-    color: azure;
+/* Titre de chaque partie des produits exemple -> Sortez avec les meilleurs t-shirt à couleur unique pour l'été */
+.tshirttitre {
+  margin-left: 8.125rem; /* 130px to rem */
 }
 
-/*Icone filtrer  */
-.filtre{
+.tshirttitre {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+}
+
+/*Texte de ADIDAS GAZELLE : L'ICÔNE INTEMPORELLE DE STYLE <br></br> ET DE CONFORT EST DE RETOUR*/
+.textegazelle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  position: absolute;
+  bottom: 55vh; /* 55% to vh */
+  left: 2vw; /* 2% to vw */
+  color: azure;
+}
+
+/*Icone filtrer */
+.filtre {
   object-fit: cover;
-  width: 25px;
-  height: 25px;
-  margin-left: 7px;
+  width: 1.5625rem; /* 25px to rem */
+  height: 1.5625rem; /* 25px to rem */
+  margin-left: 0.4375rem; /* 7px to rem */
   text-decoration: none;
 }
+
 /* alignement du mot filtrer avec l'icone filtrer */
-.image-container{
+.image-container {
   display: flex; 
   align-items: center;  
   text-decoration: none;
-  margin-left: 130px;
+  margin-left: 8.125rem; /* 130px to rem */
 }
-/* Nom des produit de la page homme et femme*/
-.produitpromoo{
+
+/* Nom des produits de la page homme et femme */
+.produitpromoo {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 0.9375rem; /* 15px to rem */
 }
 
-/* Produit pour les femmes ou il y a que 2 produit dans la ligne  */
-.nb{
-  width: 250px;
-  height: 900px;
+/* Produit pour les femmes où il y a que 2 produits dans la ligne */
+.nb {
+  width: 15.625rem; /* 250px to rem */
+  height: 56.25rem; /* 900px to rem */
 }
 
 /* prix des produits pour homme et femme */
-.prix{
-  font-family:  "Poppins", sans-serif;
+.prix {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem; /* 20px to rem */
   color: crimson;
 }
+
 /* le prix des produits */
-.prixx{
+.prixx {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 17px;
+  font-size: 1.0625rem; /* 17px to rem */
 }
- 
 
 /* barrage des prix */
-.maclasse{
-  text-decoration:line-through;
-  font-family:  "Poppins", sans-serif;
+.maclasse {
+  text-decoration: line-through;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.9375rem; /* 15px to rem */
   color: #323232;
 }

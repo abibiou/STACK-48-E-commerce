@@ -31,9 +31,9 @@ function Homme() {
                                     <a class="nav-link mx-lg-2" href="#">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mx-lg-2" href="#">Homme</a>
+                                    <a class="nav-link mx-lg-2" href="Homme">Homme</a>
                                 </li> <li class="nav-item">
-                                    <a class="nav-link mx-lg-2" href="#">Femme</a>
+                                    <a class="nav-link mx-lg-2" href="Femme">Femme</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mx-lg-2" href="#">Collection</a>
@@ -145,8 +145,49 @@ function Homme() {
     </div>
     </div>
     </div>
+    <footer  class="footer mt-5">
+                <div class="footer-content">
+                    <img src="src/img/AbiSHOPfooter.png" class="lelogo"></img>
+                    <p>Découvrez notre sélection unique de streetwear chez Abishop,
+                         où le style rencontre l'attitude urbaine, pour des tenues qui vous démarqueront à chaque instant.</p>
+                
+                <div class="icons">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
 
+                </div>
+                <div class="footer-content">
+                    <h4 class="titrefooter">SHOP</h4>
+                    <li> <a href="#">Femme</a></li>
+                    <li> <a href="#">Homme</a></li>
+                    <li> <a href="#">Enfant</a></li>
+                    <li> <a href="#">Collection</a></li>
+                    <li> <a href="#">Marque</a></li>
+                    <li> <a href="#">Promo</a></li>
+                </div>
+                <div class="footer-content">
+                    <h4 class="titrefooter">ENTREPRISE</h4>
+                    <li> <a href="#">À propos de ABISHOP</a></li>
+                    <li> <a href="#">Actualités </a></li>
+                    <li> <a href="#">Carrières</a></li>
+                    <li> <a href="#">Mission</a></li>
+                </div>
+                <div class="footer-content">
+                    <h4 class="titrefooter">HELP</h4>
+                    <li> <a href="#">Service Clients</a></li>
+                    <li> <a href="#">Mon compte</a></li>
+                    <li> <a href="#">Magasins</a></li>
+                    <li> <a href="#">Mentions légales et confidentialité</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </div>
+            </footer>
             </section>
+
+
+
     )
 }
 

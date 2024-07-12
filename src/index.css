@@ -4,91 +4,103 @@
   text-decoration: none;
   list-style: none;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
 }
+
 html, body {
-  max-width: 100% ! important;
-  overflow-x: hidden ! important;
-  overflow-x : clip; 
-  }
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  overflow-x: clip; 
+}
+
 /* Placement des cards */
 .card-img-top {
   object-fit: cover;
   width: 100%;
-  height: 250px;
-  border-radius: 12px;
+  height: 15.625rem; /* 250px to rem */
+  border-radius: 0.75rem; /* 12px to rem */
 }
-/* Taille de l'icone panier  */
-.panier{
-  width: 30px;
-  height: 30px;
-}
-/* Produit pour les femmes ou il y a que 2 produit dans la ligne et celle ci c la premiere */
-.nb{
-  width: 650px;
-  height: 250px;
-  object-fit: cover;
-  margin-left: 20px;
-}
-/* Produit pour les femmes ou il y a que 2 produit dans la ligne et celle ci c la deuxieme */
-.nbb{
-  width: 650px;
-  height: 250px;
-  object-fit: cover;
-  margin-right: 90px;
-}
-  /* enlever les liens  */
-  a{
-    text-decoration: none;
-    color: black;
-   }
-/* les habits homme et femme */
-.habitss{
-  width: 320px;
-  height: 450px;
 
+/* Taille de l'icone panier  */
+.panier {
+  width: 1.875rem; /* 30px to rem */
+  height: 1.875rem; /* 30px to rem */
 }
-.habitss{
-  transition: transform .3s;
+
+/* Produit pour les femmes ou il y a que 2 produit dans la ligne et celle ci c la premiere */
+.nb {
+  width: 40.625rem; /* 650px to rem */
+  height: 15.625rem; /* 250px to rem */
+  object-fit: cover;
+  margin-left: 1.25rem; /* 20px to rem */
 }
-.habitss:hover{
-    -ms-transform: scale(1.01); /* IE 9 */
-    -webkit-transform: scale(1.01); /* Safari 3-8 */
-    transform: scale(1.01);
-    }
+
+/* Produit pour les femmes ou il y a que 2 produit dans la ligne et celle ci c la deuxieme */
+.nbb {
+  width: 40.625rem; /* 650px to rem */
+  height: 15.625rem; /* 250px to rem */
+  object-fit: cover;
+  margin-right: 5.625rem; /* 90px to rem */
+}
+
+/* enlever les liens  */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* les habits homme et femme */
+.habitss {
+  width: 20rem; /* 320px to rem */
+  height: 28.125rem; /* 450px to rem */
+}
+
+.habitss {
+  transition: transform 0.3s;
+}
+
+.habitss:hover {
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01);
+}
 
 /* premiere image de l'accueil */ 
 .premier {
   object-fit: cover;
   width: 100%;
-  height: 550px;
-  border-radius: 12px;
-  margin-top: 90px;
+  height: 34.375rem; /* 550px to rem */
+  border-radius: 0.75rem; /* 12px to rem */
+  margin-top: 5.625rem; /* 90px to rem */
 }
+
 /* premiere image pour homme et femme */ 
 .gazelle {
   object-fit: cover;
   width: 100%;
-  height: 550px;
-  border-radius: 12px;
-  margin-top: 90px;
+  height: 34.375rem; /* 550px to rem */
+  border-radius: 0.75rem; /* 12px to rem */
+  margin-top: 5.625rem; /* 90px to rem */
   filter: brightness(70%);
 }
 
 /* image ou il a Erling Haaland */
 .deux {
   width: 100%;
-  height: 450px;
-  border-radius: 12px;
+  height: 28.125rem; /* 450px to rem */
+  border-radius: 0.75rem; /* 12px to rem */
   object-fit: cover;
   filter: brightness(60%);
 }
+
 .container {
   position: relative; 
 }
+
 .container .textniketech {
   position: absolute;
   font-family: "Bowlby One SC", sans-serif;
@@ -97,9 +109,10 @@ html, body {
   color: aliceblue;
   top: 18%;
   left: 6%;
-  width: 650px;
-  font-size: 30px;
+  width: 40.625rem; /* 650px to rem */
+  font-size: 1.875rem; /* 30px to rem */
 }
+
 .container .texteniketech2 {
   position: absolute;
   font-family: "Bowlby One SC", sans-serif;
@@ -108,13 +121,15 @@ html, body {
   color: aliceblue;
   top: 55%;
   left: 75%;
-  width: 250px;
-  font-size: 10px;
+  width: 15.625rem; /* 250px to rem */
+  font-size: 0.625rem; /* 10px to rem */
 }
+
 /* image le promo de new balance */
 .newbalance {
   filter: brightness(60%);
 }
+
 .container .textnewbalance {
   position: absolute;
   font-family: "Bowlby One SC", sans-serif;
@@ -124,46 +139,105 @@ html, body {
   top: 18%;
   left: 6%;
   width: auto;
-  font-size: 1.5 vw; 
+  font-size: 1.68vw; 
 }
 
-
-/* Page accueil le background gris avec les marque et lestaille */
+/* Page accueil le background gris avec les marque et les tailles */
 .grey {
-  height: 150px;
+  height: 9.375rem; /* 150px to rem */
   background-color: rgb(239, 239, 239);
 }
+
 .marque {
   object-fit: cover;
-  width: 130px;
-  height: 130px;
+  width: 8.125rem; /* 130px to rem */
+  height: 8.125rem; /* 130px to rem */
 }
+
 .margingris {
-  margin-top: 80px;
+  margin-top: 5rem; /* 80px to rem */
 }
+
 /* Partie footer */
 .textfooter {
   font-weight: 400;
 }
 
 .email {
-  border-radius: 20px;
+  border-radius: 1.25rem; /* 20px to rem */
 }
 
 @media screen and (max-width: 1400px) {
   .marque {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem; /* 50px to rem */
+    height: 3.125rem; /* 50px to rem */
   }
+
   .grey {
-    height: 70px;
-    margin-top: 70px;
+    height: 4.375rem; /* 70px to rem */
+    margin-top: 4.375rem; /* 70px to rem */
   }
+
   .premier {
     object-fit: cover;
     width: 100%;
-    height: 270px;
-    border-radius: 12px;
-    margin-top: 90px;
+    height: 16.875rem; /* 270px to rem */
+    border-radius: 0.75rem; /* 12px to rem */
+    margin-top: 5.625rem; /* 90px to rem */
   }
+}
+
+/* TOUT LE FOOTER*/
+.titrefooter {
+  font-weight: 600;
+}
+
+.lelogo {
+  height: 4.375rem; /* 70px to rem */
+  width: 4.375rem; /* 70px to rem */
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, auto)); /* 200px to rem */
+  gap: 3.5rem;
+  background-color: #282828;
+  padding: 5vw 10% 2.1875rem; /* 35px to rem */
+  color: #d6d6d6;
+}
+
+.footer-content h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem; /* 20px to rem */
+}
+
+.footer-content li {
+  margin-bottom: 1rem; /* 16px to rem */
+}
+
+.footer-content li a {
+  display: block;
+  color: #d6d6d6;
+  font-size: 0.9375rem; /* 15px to rem */
+  transition: all 0.4s ease;
+}
+
+.footer-content li a:hover {
+  transform: translateY(-0.1875rem); /* -3px to rem */
+  color: #fff;
+}
+
+.footer-content p {
+  font-size: 1rem; /* 16px to rem */
+  line-height: 1.875rem; /* 30px to rem */
+  margin: 1.25rem 0; /* 20px to rem */
+}
+
+.icons a {
+  display: inline-block;
+  font-size: 1.375rem; /* 22px to rem */
+  color: #d6d6d6;
+  margin-right: 1.0625rem; /* 17px to rem */
+  transition: all 0.4s ease;
 }

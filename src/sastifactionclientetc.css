@@ -1,11 +1,10 @@
 /*Partie satisfaction client de la page d'accueil*/
 
-
 /*image client camion satisfait etc...*/
 .quatre {
   object-fit: cover;
-  width: 60px;
-  height: 60px;
+  width: 3.75rem; /* 60px to rem */
+  height: 3.75rem; /* 60px to rem */
 }
 
 .container .camion {
@@ -14,10 +13,10 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 21%;
-  left: 6%;
-  width: 650px;
-  font-size: 10px;
+  top: 21vh; /* 21% to vh */
+  left: 6vw; /* 6% to vw */
+  width: 40.625rem; /* 650px to rem */
+  font-size: 0.625rem; /* 10px to rem */
 }
 
 .container .client {
@@ -26,10 +25,10 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 20%;
-  left: 31%;
-  width: 650px;
-  font-size: 10px;
+  top: 20vh; /* 20% to vh */
+  left: 31vw; /* 31% to vw */
+  width: 40.625rem; /* 650px to rem */
+  font-size: 0.625rem; /* 10px to rem */
 }
 
 .container .satisfait {
@@ -38,10 +37,10 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 20%;
-  left: 56%;
-  width: 650px;
-  font-size: 10px;
+  top: 20vh; /* 20% to vh */
+  left: 56vw; /* 56% to vw */
+  width: 40.625rem; /* 650px to rem */
+  font-size: 0.625rem; /* 10px to rem */
 }
 
 .container .securise {
@@ -50,35 +49,35 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 20%;
-  left: 81%;
-  width: 650px;
-  font-size: 10px;
+  top: 20vh; /* 20% to vh */
+  left: 81vw; /* 81% to vw */
+  width: 40.625rem; /* 650px to rem */
+  font-size: 0.625rem; /* 10px to rem */
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 50rem) { /* 800px to rem */
   .container .client {
-    top: 29%;
-    left: 21%;
-    font-size: 15px;
+    top: 29vh; /* 29% to vh */
+    left: 21vw; /* 21% to vw */
+    font-size: 0.9375rem; /* 15px to rem */
     font-weight: 600;
   }
   .container .camion {
-    top: 4%;
-    left: 21%;
-    font-size: 15px;
+    top: 4vh; /* 4% to vh */
+    left: 21vw; /* 21% to vw */
+    font-size: 0.9375rem; /* 15px to rem */
     font-weight: 600;
   }
   .container .satisfait {
-    top: 54%;
-    left: 21%;
-    font-size: 15px;
+    top: 54vh; /* 54% to vh */
+    left: 21vw; /* 21% to vw */
+    font-size: 0.9375rem; /* 15px to rem */
     font-weight: 600;
   }
   .container .securise {
-    top: 78%;
-    left: 21%;
-    font-size: 15px;
+    top: 78vh; /* 78% to vh */
+    left: 21vw; /* 21% to vw */
+    font-size: 0.9375rem; /* 15px to rem */
     font-weight: 600;
   }
 }
