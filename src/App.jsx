@@ -3,6 +3,38 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import panier from "../src/img/panier.png"
+import premier from "../src/img/first.jpg"
+import veste from "../src/img/veste.jpg"
+import  nike from "../src/img/nike.png"
+import jeann from "../src/img/jeann.jpg"
+import maillot from "../src/img/Maillot.jpg"
+import sweat from "../src/img/sweat.png"
+import shortnoir from "../src/img/shortnoir.png"
+import camion from "../src/img/camion.png"
+import support from "../src/img/support.png"
+import satisfaction from "../src/img/satisfaction.png"
+import securise from "../src/img/securise.png"
+import haland from "../src/img/haland.png"
+import nba from "../src/img/nba.png"
+import lacoste from "../src/img/lacoste.png"
+import casquette from "../src/img/casquette.png"
+import timberland from "../src/img/timberland.png"
+import arte from "../src/img/arte.jpg"
+import paireasics from "../src/img/paireasics.png"
+import psg from "../src/img/psg.png"
+import palm from "../src/img/palm.png"
+import newbalance from "../src/img/newbalance.png"
+import homme from "../src/img/homme.jpg"
+import femme from "../src/img/femme.jpg"
+import enfant from "../src/img/enfant.jpg"
+import nikelogo from "../src/img/nikelogo.png"
+import adidos from "../src/img/adidos.png"
+import nb from "../src/img/nb.png"
+import asics from "../src/img/asics.png"
+import jordanlogo from "../src/img/jordanlogo.png"
+import lacostelogo from "../src/img/lacostelogo.png"
+
 function App() {
 
     return (
@@ -53,7 +85,7 @@ function App() {
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <a href="Achat" class="">
-                    <img class="card-img-top panier ms-3" src="img/panier.png"></img>
+                    <img class="card-img-top panier ms-3" src={panier}></img>
                     </a>
                     </div>
                 </nav>
@@ -61,7 +93,7 @@ function App() {
             <section>
                 <div class="container">
                     <div class="row mt-3">
-                        <div class="col-12 "> <img class="card-img premier" src="img/first.jpg"></img>
+                        <div class="col-12 "> <img class="card-img premier" src={premier}></img>
                         </div>
                         <button type="button" class="btn btn-primary bouton">Découvrir</button>
                     </div>
@@ -72,15 +104,15 @@ function App() {
                 <div class="container">
                     <div class="row mt-3">
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/veste.jpg" class="card-img-top"></img>
+                            <img src={veste} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonveste btn-primary bouton">Voir</button>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/nike.png" class="card-img-top"></img>
+                            <img src={nike} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonnike btn-primary bouton">Voir</button>
                         <div class="col-sm-12 col-md-12 col-lg-6 mb-3 ">
-                            <img src="img/jeann.jpg" class="card-img-top"></img>
+                            <img src={jeann} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonjean btn-primary bouton">Voir</button>
                     </div>
@@ -91,15 +123,15 @@ function App() {
                 <div class="container">
                     <div class="row mt-3">
                         <div class="col-sm-12 col-md-12 col-lg-6 rounded ">
-                            <img src="img/Maillot.jpg" class="card-img-top"></img>
+                            <img src={maillot}class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonmaillot btn-primary bouton">Voir</button>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/sweat.png" class="card-img-top"></img>
+                            <img src={sweat} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonsweat btn-primary bouton">Voir</button>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                            <img src="img/shortnoir.png" class="card-img-top"></img>
+                            <img src={shortnoir} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonshort btn-primary bouton">Voir</button>
                     </div>
@@ -109,7 +141,7 @@ function App() {
                 <div class="container">
                     <div class="row mt-5 g-0">
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/camion.png" class="img-fluid rounded-start quatre"></img>
+                            <img src={camion} class="img-fluid rounded-start quatre"></img>
                             <div class="col-md-6">
                             <div class="card-body">
                             <p class="card-text camion">Rapidité garantie : Livraison express, <br>
@@ -118,7 +150,7 @@ function App() {
                         </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/support.png" class="card-img-top quatre"></img>
+                            <img src={support} class="card-img-top quatre"></img>
                             <div class="col-md-6">
                             <div class="card-body">
                             <p class="card-text client">Service client d'excellence : Votre <br></br>satisfaction, notre priorité absolue !</p>
@@ -126,7 +158,7 @@ function App() {
                         </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/satisfaction.png" class="card-img-top quatre"></img>
+                            <img src={satisfaction} class="card-img-top quatre"></img>
                             <div class="col-md-6">
                             <div class="card-body">
                             <p class="card-text satisfait">Garantie de satisfaction : Des produits<br></br> qui répondent à toutes vos attentes ! </p>
@@ -134,7 +166,7 @@ function App() {
                         </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/securise.png" class="card-img-top quatre"></img>
+                            <img src={securise} class="card-img-top quatre"></img>
                             <div class="col-md-6">
                             <div class="card-body">
                             <p class="card-text securise">Votre sécurité, notre priorité : Paiement  <br></br> sécurisé, tranquillité assurée !
@@ -150,7 +182,7 @@ function App() {
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-12 rounded ">
-                            <img src="img/haland.png" class="card-img-top deux"></img>
+                            <img src={haland} class="card-img-top deux"></img>
                             <div class="card-img-overlay">
 
                                 <p class="textniketech">DÉCOUVREZ LE NOUVEAU MODÈLE NIKE TECH : L'EXCELLENCE DE LA PERFORMANCE ET DU CONFORT !</p>
@@ -159,10 +191,10 @@ function App() {
                                     Sa coupe sportive et décontractée au niveau des épaules, de la poitrine et du corps permet de la porter facilement
                                     par-dessus d'autres vêtements. Le Fleece premium lisse des deux côtés est encore plus chaud et
                                     doux qu'avant, sans sacrifier la légèreté</p>
-                                <button type="button" class="btn btn-primary bouton">ACHETER</button>
                             </div>
                         </div>
                     </div>
+                    <button type="button" class="btn btn-primary buttonhalaand">ACHETER</button>
                 </div>
             </section>
             <section>
@@ -177,7 +209,7 @@ function App() {
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
-                            <img src="img/nba.png" class="card-img-top habits"></img>
+                            <img src={nba} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Air Jordan T-shirt NBA</h5>
                                 <p class="card-text mt-3 prix ">40€ <span class="maclasse">60€</span></p>
@@ -185,7 +217,7 @@ function App() {
                         </div>
 
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
-                            <img src="img/lacoste.png" class="card-img-top habits"></img>
+                            <img src={lacoste} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Lacoste zippé monogramme</h5>
                                 <p class="card-text mt-3 prix">85€ <span class="maclasse">150€</span></p>
@@ -193,14 +225,14 @@ function App() {
 
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
-                            <img src="img/casquette.png" class="card-img-top habits"></img>
+                            <img src={casquette} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo" >Cortiez casquette rose</h5>
                                 <p class="card-text mt-3 prix">25€ <span class="maclasse">45€</span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3">
-                            <img src="img/timberland.png" class="card-img-top habits"></img>
+                            <img src={timberland} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Timberland 6 INCH PREMIUM</h5>
                                 <p class="card-text mt-3 prix">110€ <span class="maclasse">160€</span></p>
@@ -215,28 +247,28 @@ function App() {
                     <div class="row mt-3">
                         
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
-                            <img src="img/arte.jpg" class="card-img-top habits"></img>
+                            <img src={arte}  class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Arte veste</h5>
                                 <p class="card-text mt-  prix ">80€ <span class="maclasse">130€</span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
-                            <img src="img/paireasics.png" class="card-img-top habits"></img>
+                            <img src={paireasics} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Asics gel kayano 14 rose</h5>
                                 <p class="card-text mt-3  prix ">110€ <span class="maclasse">170€</span> </p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
-                            <img src="img/psg.png" class="card-img-top habits"></img>
+                            <img src={psg} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">PSG Maillot rétro 2001</h5>
                                 <p class="card-text mt-3  prix ">59€ <span class="maclasse">99€</span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3">
-                            <img src="img/palm.png" class="card-img-top habits"></img>
+                            <img src={palm} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Jean</h5>
                                 <p class="card-text mt-3  prix ">250€ <span class="maclasse">550€</span> </p>
@@ -251,12 +283,12 @@ function App() {
   <div class="container">
     <div class="row mt-3">
       <div class="col-12 rounded">
-        <img src="img/newbalance.png" class="card-img-top newbalance" />
+        <img src={newbalance} class="card-img-top newbalance" />
       </div>
       <p class="textnewbalance">
         TOUTE LA GAMME NEW BALANCE SOLDÉ <br></br>JUSQU'À -30% PROFITES-EN VITE !
       </p>
-      <button type="button" class="btn btn-primary bouton">Découvrir</button>
+      <button type="button" class="btn btn-primary bouton">DÉCOUVRIR</button>
     </div>
   </div>
 </section>
@@ -274,26 +306,26 @@ function App() {
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-sm-4 mb-3 rounded position-relative">
-                            <img src="img/homme.jpg" class="card-img-top  tendance"></img>
+                            <img src={homme} class="card-img-top  tendance"></img>
                             <div class= "position-absolute bottom-0 start-0 ps-4 mb-5">
                             <p class="card-text texthomme">TENDANCE HOMME</p>
-                        <button type="button" class="tendanceboutton btn-primary">Découvrir</button>
+                        <button type="button" class="tendanceboutton btn-primary">DÉCOUVRIR</button>
                         </div>
                         </div>
                         <div class="col-sm-4  mb-3 rounded position-relative">
 
-                            <img src="img/femme.jpg" class="card-img-top tendance"></img>
+                            <img src={femme} class="card-img-top tendance"></img>
                             <div class= "position-absolute bottom-0 start-0 ps-4 mb-5">
                             <p class=" card-text textfemme">TENDANCE FEMME  </p>
-                            <button type="button" class="tendanceboutton btn-primary">Découvrir</button>
+                            <button type="button" class="tendanceboutton btn-primary">DÉCOUVRIR</button>
                         </div>
                         </div>
                        
                         <div class="col-sm-4  mb-3 position-relative">
-                            <img src="img/enfant.jpg" class="card-img-top tendance"></img>
+                            <img src={enfant} class="card-img-top tendance"></img>
                             <div class= "position-absolute bottom-0 start-0 ps-4 mb-5">
                         <p class="card-text textenfant">TENDANCE ENFANT </p>
-                        <button type="button" class="tendanceboutton btn-primary">Découvrir</button>
+                        <button type="button" class="tendanceboutton btn-primary">DÉCOUVRIR</button>
                     </div>
                 </div>
                 </div>
@@ -303,22 +335,22 @@ function App() {
                 <div class="container-fluid grey margingris">
                     <div class="row">
                         <div class="col-2 rounded ">
-                            <img src="img/nikelogo.png" class="card-img-top marque"></img>
+                            <img src={nikelogo} class="card-img-top marque"></img>
                         </div>
                         <div class="col-2 rounded ">
-                            <img src="img/adidos.png" class="card-img-top marque"></img>
+                            <img src={adidos}  class="card-img-top marque"></img>
                         </div>
                         <div class="col-2 rounded ">
-                            <img src="img/nb.png" class="card-img-top marque"></img>
+                            <img src={nb} class="card-img-top marque"></img>
                         </div>
                         <div class="col-2 rounded ">
-                            <img src="img/asics.png" class="card-img-top marque"></img>
+                            <img src={asics} class="card-img-top marque"></img>
                         </div>
                         <div class="col-2 rounded ">
-                            <img src="img/jordanlogo.png" class="card-img-top marque"></img>
+                            <img src={jordanlogo} class="card-img-top marque"></img>
                         </div>
                         <div class="col-2 rounded ">
-                            <img src="img/lacostelogo.png" class="card-img-top marque"></img>
+                            <img src={lacostelogo} class="card-img-top marque"></img>
                         </div>
                     </div>
                 </div>
@@ -327,7 +359,7 @@ function App() {
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-12 rounded ">
-                            <img src="img/haland.png" class="card-img-top deux"></img>
+                            <img class="card-img-top deux" src={haland} ></img>
                             <div class="card-img-overlay">
 
                                 <p class="textniketech">DÉCOUVREZ LE NOUVEAU MODÈLE NIKE TECH : L'EXCELLENCE DE LA PERFORMANCE ET DU CONFORT !</p>
@@ -346,15 +378,15 @@ function App() {
                 <div class="container">
                     <div class="row mt-3">
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/veste.jpg" class="card-img-top"></img>
+                            <img src={veste} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonveste btn-primary bouton">Voir</button>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src="img/nike.png" class="card-img-top"></img>
+                            <img src={nike} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonnike btn-primary bouton">Voir</button>
                         <div class="col-sm-12 col-md-12 col-lg-6 mb-3 ">
-                            <img src="img/jeann.jpg" class="card-img-top"></img>
+                            <img src={jeann} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonjean btn-primary bouton">Voir</button>
                     </div>

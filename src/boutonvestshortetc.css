@@ -14,8 +14,29 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
+    transition: 0.3s ease, color 0.3s ease;
   }
-
+  .buttonhalaand{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    height: 45px;
+    max-width: 150px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(129, 129, 129);
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.3s ease, color 0.3s ease;
+  }
+  
+  .container .btn:hover {
+    background-color: #343a40;
+    color: #ffffff;
+}
   .container .boutonnn{
     color: #000000;
     top: 20%;
@@ -57,8 +78,6 @@
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
   }
-
-
   .container .boutonnnnnn{
     color: #000000;
     top: 20%;
@@ -166,9 +185,19 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
-  }
-  
-  .container .bouttonnike{
+    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.container .bouttonveste:hover {
+    background-color: #6f4e2f;
+    color: rgb(255, 255, 255);
+}
+
+.container .bouttonveste:active {
+    background-color: #50391f;
+}
+
+.container .bouttonnike{
     position: absolute;
     top: 75%;
     left: 27%;
@@ -182,9 +211,19 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
-  }
-  
-  .container .bouttonjean{
+    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.container .bouttonnike:hover {
+    background-color: #d98c33;
+    color: rgb(255, 255, 255);
+}
+
+.container .bouttonnike:active {
+    background-color: #b06b1f;
+}
+
+.container .bouttonjean{
     position: absolute;
     top: 75%;
     left: 54%;
@@ -198,9 +237,19 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
-  }
-  
-  .container .bouttonmaillot{
+    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.container .bouttonjean:hover {
+    background-color: #8ec2f4;
+    color: rgb(255, 255, 255);
+}
+
+.container .bouttonjean:active {
+    background-color: #629bb8;
+}
+
+.container .bouttonmaillot{
     position: absolute;
     top: 75%;
     left: 4%;
@@ -214,9 +263,19 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
-  }
-  
-  .container .bouttonsweat{
+    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.container .bouttonmaillot:hover {
+    background-color: #d4c25e;
+    color: rgb(255, 255, 255);
+}
+
+.container .bouttonmaillot:active {
+    background-color: #b6a34b;
+}
+
+.container .bouttonsweat{
     position: absolute;
     top: 75%;
     left: 52%;
@@ -230,9 +289,19 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
-  }
-  
-  .container .bouttonshort{
+    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.container .bouttonsweat:hover {
+    background-color: #86c987;
+    color: rgb(255, 255, 255);
+}
+
+.container .bouttonsweat:active {
+    background-color: #66a268;
+}
+
+.container .bouttonshort{
     position: absolute;
     top: 75%;
     left: 77%;
@@ -246,4 +315,14 @@
     border-radius: 25px;
     font-family:  "Poppins", sans-serif;
     font-weight: 600;
-  }
+    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.container .bouttonshort:hover {
+    background-color: #323232;
+    color: rgb(255, 255, 255);
+}
+
+.container .bouttonshort:active {
+    background-color: #1f1f1f;
+}

@@ -91,20 +91,23 @@
   left: 69%;
   font-size: 27px;
 }
-
 .tendanceboutton {
-
   padding-block: 5px;
-  height: 37px;
-  width: 160px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    color:rgb(129, 129, 129);;
-    border: none;
-    cursor: pointer;
-    border-radius: 25px;
-    font-family:  "Poppins", sans-serif;
-    font-weight: 600;
-  }
+  height: 39px;
+  width: 140px;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  color: rgb(129, 129, 129);
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease, color 0.3s ease;
+}
 
-  
+.tendanceboutton:hover {
+  background-color: rgb(129, 129, 129);
+  color: rgb(255, 255, 255);
+}

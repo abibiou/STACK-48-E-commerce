@@ -1,3 +1,17 @@
+import panier from "../src/img/panier.png"
+import premier from "../src/img/first.jpg"
+import veste from "../src/img/veste.jpg"
+import  nike from "../src/img/nike.png"
+import jeann from "../src/img/jeann.jpg"
+import maillot from "../src/img/Maillot.jpg"
+import tshirtbeige from "../src/img/tshirtbeige.jpg"
+import plus from "../src/img/buttonplus.png"
+import moin from "../src/img/buttonmoin.png"
+import klarna from "../src/img/klarna.png"
+import paypall from "../src/img/paypall.png"
+import maestro from "../src/img/maestro.png"
+import visa from "../src/img/visa.png"
+import mastercard from "../src/img/mastercard.webp"
 function Homme() {
     return (
 
@@ -39,7 +53,7 @@ function Homme() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a aria-current="page" href="Panier" class="">
-                    <img class="card-img-top panier ms-3" src="img/panier.png"></img>
+                    <img class="card-img-top panier ms-3" src={panier}></img>
                     </a>
                 </div>
             </nav>
@@ -50,7 +64,7 @@ function Homme() {
             <div class="col-md-8 mt-3">
                 <div class="cart-item d-flex">
                     <div class="arrireplan">
-                        <img src="img/tshirtbeige.jpg" class="img-fluid mt-3"></img>
+                        <img src={tshirtbeige} class="img-fluid mt-3"></img>
                     </div>
                     <div class="ms-3 mt-5">
                         <p class="title">T-SHIRT COULEUR UNIE<span class="vert mx-3">En stock</span></p>
@@ -68,9 +82,9 @@ function Homme() {
                         <p class="ms-0 mx-4"> 12,99€</p>
                         </div>
                         <div class="container élementt">
-                        <img src="img/buttonplus.png" class="img-fluid plusetmoin mt-3"></img>
+                        <img src={plus} class="img-fluid plusetmoin mt-3"></img>
                         <input class="nombre " type="number" id="" name=""></input>
-                        <img src="img/buttonmoin.png" class="img-fluid plusetmoin mt-3 "></img>
+                        <img src={moin} class="img-fluid plusetmoin mt-3 "></img>
                         </div>
                     </div>
                 </div>
@@ -118,11 +132,11 @@ function Homme() {
              <p class="text-danger ">Soldes : jusqu'à -70% avec nouveaux articles soldés.</p>
              <p class="connectezvous" >Nous acceptons:</p>
              <div class="container mb-2 cerclecouleur">
-                            <img src="img/klarna.png" class="card-img-top cercle"></img>
-                            <img src="img/paypall.png" class="card-img-top cercle mx-2"></img>
-                            <img src="img/maestro.png" class="card-img-top cercle mx-2"></img>
-                            <img src="img/visa.png" class="card-img-top cercle mx-2"></img>
-                            <img src="img/mastercard.webp" class="card-img-top cercle mx-2"></img>
+                            <img  src={klarna} class="card-img-top cercle"></img>
+                            <img  src={paypall} class="card-img-top cercle mx-2"></img>
+                            <img src={maestro} class="card-img-top cercle mx-2"></img>
+                            <img  src={visa}  class="card-img-top cercle mx-2"></img>
+                            <img  src={mastercard} class="card-img-top cercle mx-2"></img>
                             </div>
             <p class="Inforsurlesprixetlesfraisdelivraison">Les prix et les frais de livraison ne sont validés que durant la finalisation de la commande.
                 <br></br>Délai de rétraction de 30jours. Lisez à propos des retour et remboursement. 
