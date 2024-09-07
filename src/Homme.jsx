@@ -128,22 +128,23 @@ function Homme() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-2  col-lg-2 mx-4 rounded  ">
-
+                        <div class="col-sm-5 col-md-5  col-lg-2 mx-4 rounded  ">
                             <img src={tshirtbleu} class="card-img-top habitss"></img>
                             <div class="card-body">
+                            <a href="Achattshirtbleu">
                                 <h5 class="card-title mt-3 produitpromoo">T-shirt couleur unie bleu</h5>
+                                 </a>
                                 <p class="card-text mt-2 prix">17,99€ <span class="maclasse"></span></p>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-2 col-lg-2  mx-4 rounded ">
+                        <div class="col-sm-5 col-md-5 col-lg-2  mx-4 rounded ">
                             <img src={tshirtnoir} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo" >T-shirt couleur unie noir</h5>
                                 <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-2 col-lg-2 mx-4 ">
+                        <div class="col-sm-5 col-md-5 col-lg-2 mx-4 ">
                             <img src={tshirtrouge} class="card-img-top habitss"></img>
                             <div class="card-body">
                             <a href="Achat">
@@ -152,7 +153,7 @@ function Homme() {
                                 <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-2 col-lg-2 mx-4 ">
+                        <div class="col-sm-5 col-md-5 col-lg-2 mx-4 ">
                         <a href="Achat">
                             <img src={tshirtbeige} class="card-img-top habitss"></img>
 

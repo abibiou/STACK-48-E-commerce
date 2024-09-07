@@ -13,10 +13,10 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 21vh; /* 21% to vh */
-  left: 6vw; /* 6% to vw */
-  width: 40.625rem; /* 650px to rem */
-  font-size: 0.625rem; /* 10px to rem */
+  top: 21%; /* 21% to vh */
+  left: 6%; /* 6% to vw */
+  width: 650px; /* 650px to rem */
+  font-size: 10px; /* 10px to rem */
 }
 
 .container .client {
@@ -25,10 +25,10 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 20vh; /* 20% to vh */
-  left: 31vw; /* 31% to vw */
-  width: 40.625rem; /* 650px to rem */
-  font-size: 0.625rem; /* 10px to rem */
+  top: 20%; /* 20% to vh */
+  left: 31%; /* 31% to vw */
+  width: 650px; /* 650px to rem */
+  font-size: 10px; /* 10px to rem */
 }
 
 .container .satisfait {
@@ -37,10 +37,10 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 20vh; /* 20% to vh */
-  left: 56vw; /* 56% to vw */
-  width: 40.625rem; /* 650px to rem */
-  font-size: 0.625rem; /* 10px to rem */
+  top: 20%; /* 20% to vh */
+  left: 56%; /* 56% to vw */
+  width: 650px; /* 650px to rem */
+  font-size: 10px; /* 10px to rem */
 }
 
 .container .securise {
@@ -49,35 +49,35 @@
   font-weight: 800;
   font-style: normal;
   color: rgb(46, 46, 46);
-  top: 20vh; /* 20% to vh */
-  left: 81vw; /* 81% to vw */
-  width: 40.625rem; /* 650px to rem */
-  font-size: 0.625rem; /* 10px to rem */
+  top: 20%; /* 20% to vh */
+  left: 81%; /* 81% to vw */
+  width: 650px; /* 650px to rem */
+  font-size: 10px; /* 10px to rem */
 }
 
 @media screen and (max-width: 50rem) { /* 800px to rem */
   .container .client {
-    top: 29vh; /* 29% to vh */
-    left: 21vw; /* 21% to vw */
-    font-size: 0.9375rem; /* 15px to rem */
+    top: 29%; /* 29% to vh */
+    left: 21%; /* 21% to vw */
+    font-size: 15px; /* 15px to rem */
     font-weight: 600;
   }
   .container .camion {
-    top: 4vh; /* 4% to vh */
-    left: 21vw; /* 21% to vw */
-    font-size: 0.9375rem; /* 15px to rem */
+    top: 4%; /* 4% to vh */
+    left: 21%; /* 21% to vw */
+    font-size: 15px; /* 15px to rem */
     font-weight: 600;
   }
   .container .satisfait {
-    top: 54vh; /* 54% to vh */
-    left: 21vw; /* 21% to vw */
-    font-size: 0.9375rem; /* 15px to rem */
+    top: 54%; /* 54% to vh */
+    left: 21%; /* 21% to vw */
+    font-size: 15px; /* 15px to rem */
     font-weight: 600;
   }
   .container .securise {
-    top: 78vh; /* 78% to vh */
-    left: 21vw; /* 21% to vw */
-    font-size: 0.9375rem; /* 15px to rem */
+    top: 78%; /* 78% to vh */
+    left: 21%; /* 21% to vw */
+    font-size: 15px; /* 15px to rem */
     font-weight: 600;
   }
 }
