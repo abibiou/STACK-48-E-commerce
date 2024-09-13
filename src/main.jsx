@@ -9,6 +9,8 @@ import Homme from './Homme.jsx'
 import Achat from './Achat.jsx'
 import Femme from './Femme.jsx'
 import Panier from './Panier.jsx'
+import Achattshirtbleu from './Achattshirtbleu.jsx'
+import './Achattshirtbleu.css'
 import './Panier.css'
 import './Homme.css'
 import './Femme.css'
@@ -41,6 +43,11 @@ const router = createBrowserRouter([
     path: "/Panier",
     element: <Panier />,
   },
+  {
+    path: "/Achattshirtbleu",
+    element: <Achattshirtbleu />,
+  },
+
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

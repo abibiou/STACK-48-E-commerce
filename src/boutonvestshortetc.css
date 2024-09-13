@@ -223,22 +223,7 @@
     background-color: #b06b1f;
 }
 
-.container .bouttonjean{
-    position: absolute;
-    top: 75%;
-    left: 54%;
-    height: 32px;
-    max-width: 85px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    color: #8ec2f4;
-    border: none;
-    cursor: pointer;
-    border-radius: 25px;
-    font-family:  "Poppins", sans-serif;
-    font-weight: 600;
-    transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-}
+
 
 .container .bouttonjean:hover {
     background-color: #8ec2f4;
@@ -325,4 +310,115 @@
 
 .container .bouttonshort:active {
     background-color: #1f1f1f;
+}
+.tendanceboutton {
+  padding-block: 0.3125rem; /* 5px to rem */
+  height: 2.4375rem; /* 39px to rem */
+  width: 8.75rem; /* 140px to rem */
+  font-size: 0.9375rem; /* 15px to rem */
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  color: rgb(129, 129, 129);
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5625rem; /* 25px to rem */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.tendanceboutton:hover {
+  background-color: rgb(129, 129, 129);
+  color: rgb(255, 255, 255);
+}
+.container .bouttonjean {
+  position: absolute;
+  top: 75%;
+  left: 54%;
+  height: 32px;
+  max-width: 85px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  color: #8ec2f4;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Pour les écrans très petits, comme les téléphones très compacts */
+@media (max-width: 480px) {
+  .container .bouttonjean {
+    top: 93%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    max-width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .bouttonveste {
+    top: 29%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    max-width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .bouttonnike {
+    top: 65%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    max-width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .bouttonmaillot {
+    top: 20%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    max-width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .container .bouttonsweat {
+    top: 56%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    max-width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .container .bouttonshort {
+    top: 92%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    max-width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .buttonhalaand {
+    top: 75%; /* Plus bas pour petits écrans */
+    left: 10%; /* Centrer horizontalement */
+    width: 120px; /* Réduire la largeur */
+    height: 40px; /* Réduire la hauteur */
+    font-size: 0.75rem; /* Réduire la taille du texte pour les petits écrans */
+  }
 }

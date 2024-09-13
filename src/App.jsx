@@ -111,8 +111,8 @@ function App() {
                             <img src={nike} class="card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonnike btn-primary bouton">Voir</button>
-                        <div class="col-sm-12 col-md-12 col-lg-6 mb-3 ">
-                            <img src={jeann} class="card-img-top"></img>
+                        <div class="col-sm-12 col-md-12 col-lg-6 mb-3">
+                            <img src={jeann} class="exception card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonjean btn-primary bouton">Voir</button>
                     </div>
@@ -122,8 +122,8 @@ function App() {
             <section>
                 <div class="container">
                     <div class="row mt-3">
-                        <div class="col-sm-12 col-md-12 col-lg-6 rounded ">
-                            <img src={maillot}class="card-img-top"></img>
+                        <div class="col-sm-12 col-md-12 col-lg-6 mb-3 rounded ">
+                            <img src={maillot} class="exception card-img-top"></img>
                         </div>
                         <button type="button" class="bouttonmaillot btn-primary bouton">Voir</button>
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
@@ -354,44 +354,6 @@ function App() {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row mt-5">
-                        <div class="col-12 rounded ">
-                            <img class="card-img-top deux" src={haland} ></img>
-                            <div class="card-img-overlay">
-
-                                <p class="textniketech">DÉCOUVREZ LE NOUVEAU MODÈLE NIKE TECH : L'EXCELLENCE DE LA PERFORMANCE ET DU CONFORT !</p>
-                                <p class="card-text texteniketech2">Associant deux de leurs looks les plus emblématiques, ce sweat à capuche et zip Nike Tech Fleece
-                                    s'inspire de la veste Windrunner intemporelle.
-                                    Sa coupe sportive et décontractée au niveau des épaules, de la poitrine et du corps permet de la porter facilement
-                                    par-dessus d'autres vêtements. Le Fleece premium lisse des deux côtés est encore plus chaud et
-                                    doux qu'avant, sans sacrifier la légèreté</p>
-                                <button type="button" class="btn btn-primary bouton">ACHETER</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row mt-3">
-                        <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src={veste} class="card-img-top"></img>
-                        </div>
-                        <button type="button" class="bouttonveste btn-primary bouton">Voir</button>
-                        <div class="col-sm-6 col-md-6 col-lg-3 mb-3 rounded ">
-                            <img src={nike} class="card-img-top"></img>
-                        </div>
-                        <button type="button" class="bouttonnike btn-primary bouton">Voir</button>
-                        <div class="col-sm-12 col-md-12 col-lg-6 mb-3 ">
-                            <img src={jeann} class="card-img-top"></img>
-                        </div>
-                        <button type="button" class="bouttonjean btn-primary bouton">Voir</button>
-                    </div>
-                </div>
-
             </section>
             <footer  class="footer mt-5">
                 <div class="footer-content">

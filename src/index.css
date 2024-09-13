@@ -24,7 +24,14 @@ html, body {
   height: 15.625rem; /* 250px to rem */
   border-radius: 0.75rem; /* 12px to rem */
 }
-
+@media (max-width: 480px) {
+.exception{
+  object-fit: cover;
+  width: 100%;
+  height: 180px; /* 250px to rem */
+  border-radius: 12px; /* 12px to rem */
+}
+}
 /* Taille de l'icone panier  */
 .panier {
   width: 1.875rem; /* 30px to rem */
@@ -112,7 +119,27 @@ a {
   width: 40.625rem; /* 650px to rem */
   font-size: 1.875rem; /* 30px to rem */
 }
+.container .textniketech {
+  position: absolute;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: aliceblue;
+  top: 18%;
+  left: 6%;
+  width: 40.625rem; /* 650px en rem */
+  font-size: 1.875rem; /* 30px en rem */
+}
 
+/* Pour les très petits écrans, comme les smartphones */
+@media (max-width: 480px) {
+  .container .textniketech {
+    top: 6%;
+    left: 10%; /* Légèrement plus à gauche */
+    width: 20rem; /* Encore plus réduit pour les petits écrans */
+    font-size: 1.2rem; /* Plus petit texte */
+  }
+}
 .container .texteniketech2 {
   position: absolute;
   font-family: "Bowlby One SC", sans-serif;
@@ -124,7 +151,15 @@ a {
   width: 15.625rem; /* 250px to rem */
   font-size: 0.625rem; /* 10px to rem */
 }
-
+@media (max-width: 480px) {
+  .container .texteniketech2 {
+    top: 40%; /* Ajustement de la position verticale */
+    left: 49%; /* Centrage horizontal sur petits écrans */
+    transform: translateX(-50%); /* Pour recentrer */
+    width: 300px; /* Réduire la largeur (200px en rem) */
+    font-size: 10px; /* Augmentation de la taille du texte (12px) pour lisibilité */
+  }
+}
 /* image le promo de new balance */
 .newbalance {
   filter: brightness(60%);
@@ -141,7 +176,15 @@ a {
   width: auto;
   font-size: 1.68vw; 
 }
-
+@media (max-width: 480px) {
+  .container .textnewbalance {
+    top: 16%; /* Ajustement de la position verticale */
+    left: 45%; /* Centrage horizontal sur petits écrans */
+    transform: translateX(-50%); /* Pour recentrer */
+    width: 300px; /* Réduire la largeur (200px en rem) */
+    font-size: 18px; /* Augmentation de la taille du texte (12px) pour lisibilité */
+  }
+}
 /* Page accueil le background gris avec les marque et les tailles */
 .grey {
   height: 9.375rem; /* 150px to rem */

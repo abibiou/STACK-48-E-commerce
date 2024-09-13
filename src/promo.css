@@ -93,24 +93,3 @@ h2 {
   left: 69%;
   font-size: 1.6875rem; /* 27px to rem */
 }
-
-.tendanceboutton {
-  padding-block: 0.3125rem; /* 5px to rem */
-  height: 2.4375rem; /* 39px to rem */
-  width: 8.75rem; /* 140px to rem */
-  font-size: 0.9375rem; /* 15px to rem */
-  background-color: rgb(255, 255, 255);
-  opacity: 0.9;
-  color: rgb(129, 129, 129);
-  border: none;
-  cursor: pointer;
-  border-radius: 1.5625rem; /* 25px to rem */
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  transition: 0.3s ease, color 0.3s ease;
-}
-
-.tendanceboutton:hover {
-  background-color: rgb(129, 129, 129);
-  color: rgb(255, 255, 255);
-}
