@@ -392,14 +392,14 @@ function Homme() {
                                 <p class="card-text  mt-2 prix">102,99€</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4 mt-3 ">
+                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4 mt-3 rounded ">
                             <img src={maillotpb} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Maillot Nike Pays-Bas 2024</h5>
                                 <p class="card-text  mt-2 prix">102,99€</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4  mt-3">
+                        <div class="col-sm-6 col-md-6 col-lg-2 mx-4  mt-3 rounded">
                             <img src={maillotpdg} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Maillot Nike Pays-De-Galles 2024</h5>
