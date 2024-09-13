@@ -62,19 +62,58 @@ a {
 
 /* les habits homme et femme */
 .habitss {
-  width: 20rem; /* 320px to rem */
-  height: 28.125rem; /* 450px to rem */
-}
-
-.habitss {
+  width: 120%;
+  height: auto; /* Ajuste la hauteur pour maintenir les proportions */
   transition: transform 0.3s;
 }
 
 .habitss:hover {
-  -ms-transform: scale(1.01); /* IE 9 */
-  -webkit-transform: scale(1.01); /* Safari 3-8 */
   transform: scale(1.01);
 }
+@media (max-width: 480px) {
+  .bleu {
+    width: 35%;
+    margin-left: -37px;
+    margin-top: -60px;
+  }
+  
+  .nwar {
+    width: 35%;
+    margin-left: 141px;
+    margin-top: -320px;
+  }
+  .red {
+    width: 35%;
+    margin-left: -37px;
+    margin-top: 20px;
+  }
+  .bbeige {
+    width: 35%;
+    margin-left: 141px;
+    margin-top: -320px;
+  }
+.shortun{
+    width: 35%;
+    margin-left: -40px;
+    margin-top: -30px;
+  }
+  .shortdeux{
+    width: 35%;
+    margin-left: 140px;
+    margin-top: -340px;
+  }
+  .shorttrois{
+    width: 35%;
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .shortquatre{
+    width: 35%;
+    margin-left: 140px;
+    margin-top: -338px;
+  }
+}
+   
 
 /* premiere image de l'accueil */ 
 .premier {

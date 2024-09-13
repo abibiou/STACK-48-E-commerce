@@ -79,7 +79,7 @@ function Homme() {
             <section>
                 <div class="container">
                     <div class="image-container mt-5">
-                        <p>Filtrer</p>
+                        <p class="filtrer">Filtrer</p>
                         <a href="#">
                             <img src={filtre} class="filtre mb-3"></img>
                         </a>
@@ -88,11 +88,11 @@ function Homme() {
                 <div class="container">
                     <h6 class="tshirttitre mt-3"> Sortez avec les meilleurs t-shirt à couleur unique pour l'été  </h6>
                 </div>
-                <div class="container-fluid ms-4">
+                <div class="lemenu container-fluid ms-4">
                     <div class="row mt-1">
                         <div class="col-sm-2 col-md-2 col-lg-2 rounded mb-5">
                             <div class="offcanvas-body mt-3">
-                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                <ul class="zizou navbar-nav justify-content-center flex-grow-1 pe-3">
                                     <li class="nav-item">
                                         <h4>Homme</h4>
                                         <h5>Soldes jusqu'à -50%</h5>
@@ -128,7 +128,8 @@ function Homme() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-5  col-lg-2 mx-4 rounded  ">
+                        <div class="col-sx-6 col-sm-6 col-md-5  col-lg-2 mx-4 rounded  ">
+                           <div class="bleu">
                             <img src={tshirtbleu} class="card-img-top habitss"></img>
                             <div class="card-body">
                             <a href="Achattshirtbleu">
@@ -137,14 +138,18 @@ function Homme() {
                                 <p class="card-text mt-2 prix">17,99€ <span class="maclasse"></span></p>
                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-5 col-lg-2  mx-4 rounded ">
+                        </div>
+                        <div class="col-sx-6 col-sm-6 col-md-5 col-lg-2  mx-4 rounded ">
+                        <div class="nwar">
                             <img src={tshirtnoir} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo" >T-shirt couleur unie noir</h5>
                                 <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
                             </div>
+                         </div>
                         </div>
-                        <div class="col-sm-5 col-md-5 col-lg-2 mx-4 ">
+                        <div class="col-sx-6 col-sm-6 col-md-5 col-lg-2 mx-4 ">
+                            <div class="red">
                             <img src={tshirtrouge} class="card-img-top habitss"></img>
                             <div class="card-body">
                             <a href="Achat">
@@ -152,8 +157,11 @@ function Homme() {
                                 </a>
                                 <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
                             </div>
+                            
+                             </div>
                         </div>
-                        <div class="col-sm-5 col-md-5 col-lg-2 mx-4 ">
+                        <div class="col-sx-6 col-sm-6 col-md-5 col-lg-2 mx-4 ">
+                            <div class="bbeige">
                         <a href="Achat">
                             <img src={tshirtbeige} class="card-img-top habitss"></img>
 
@@ -165,6 +173,7 @@ function Homme() {
                                 <p class="card-text  mt-2 prix">12,99€ <span class="maclasse">17,99€</span></p>
                             </div>
                         </div>
+                         </div>
                     </div>
                 </div>
                 <div class="container">
@@ -174,7 +183,7 @@ function Homme() {
                     <div class="row mt-1">
                         <div class=" col-lg-2 rounded ">
                             <div class="offcanvas-body mb-5">
-                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                <ul class="zizou navbar-nav justify-content-center flex-grow-1 pe-3">
                                     <li class="nav-item">
                                         <h5>Marque</h5>
                                         <a class="nav-link mx-lg-2" aria-current="page" href="#">Adidas</a>
@@ -211,32 +220,40 @@ function Homme() {
                             </div>
                         </div>
                         <div class=" col-lg-2 mx-4 rounded ">
+                        <div class="shortun">
                             <img src={short1} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
+                              </div>
                         </div>
                         <div class=" col-lg-2  mx-4 rounded ">
+                             <div class="shortdeux">
                             <img src={short2} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
+                              </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4 ">
+                             <div class="shorttrois">
                             <img src={short3} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
+                              </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-2 mx-4 ">
+                             <div class="shortquatre">
                             <img src={short4} class="card-img-top habitss"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromoo">Lot de 2 shorts Regular Fit en molleton</h5>
                                 <p class="card-text  mt-2 prix ">22,99€ <span class="maclasse">27,99€</span></p>
                             </div>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -247,7 +264,7 @@ function Homme() {
                     <div class="row mt-1">
                         <div class="col-lg-2 mb-2 rounded ">
                             <div class="offcanvas-body mt-3">
-                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                <ul class="zizou navbar-nav justify-content-center flex-grow-1 pe-3">
                                     <li class="nav-item">
                                         <h5>Inspiration</h5>
                                         <a class="nav-link mx-lg-2" aria-current="page" href="#">Voir tout</a>
@@ -320,7 +337,7 @@ function Homme() {
 
                         <div class="col-sm-6 col-md-6 col-lg-2  rounded ">
                             <div class="offcanvas-body mt-3">
-                                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                <ul class="zizou navbar-nav justify-content-center flex-grow-1 pe-3">
                                     <li class="nav-item">
                                         <a class="nav-link mx-lg-2" aria-current="page" href="#"></a>
                                     </li>

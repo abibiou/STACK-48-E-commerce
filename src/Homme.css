@@ -26,6 +26,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
+@media (max-width: 480px) {
+  .zizou {
+    display: none;
+  }
+}
 
 /* Titre de chaque partie des produits exemple -> Sortez avec les meilleurs t-shirt à couleur unique pour l'été */
 .tshirttitre {
@@ -37,6 +42,11 @@ body {
   font-weight: 600;
   font-style: normal;
   text-align: left;
+}
+@media (max-width: 480px) {
+  .tshirttitre {
+    margin-left: 10px; /* 130px to rem */
+  }
 }
 
 /*Texte de ADIDAS GAZELLE : L'ICÔNE INTEMPORELLE DE STYLE <br></br> ET DE CONFORT EST DE RETOUR*/
@@ -58,7 +68,16 @@ body {
   margin-left: 0.4375rem; /* 7px to rem */
   text-decoration: none;
 }
-
+@media (max-width: 480px) {
+  .filtre {
+    margin-left: 10px; /* 130px to rem */
+  }
+}
+@media (max-width: 480px) {
+  .filtrer {
+    margin-left: -120px; /* 130px to rem */
+  }
+}
 /* alignement du mot filtrer avec l'icone filtrer */
 .image-container {
   display: flex; 

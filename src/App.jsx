@@ -208,7 +208,7 @@ function App() {
             <section>
                 <div class="container">
                     <div class="row mt-5">
-                        <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
+                        <div class="col-sx-6 col-sm-3 col-md-3 col-lg-3 rounded ">
                             <img src={nba} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Air Jordan T-shirt NBA</h5>
@@ -216,7 +216,7 @@ function App() {
                             </div>
                         </div>
 
-                        <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
+                        <div class="   col-sx-6  col-sm-3  col-md-3 col-lg-3 rounded ">
                             <img src={lacoste} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Lacoste zippé monogramme</h5>
@@ -224,14 +224,14 @@ function App() {
                             </div>
 
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
+                        <div class="col-sx-6  col-sm-3  col-md-3 col-lg-3 rounded ">
                             <img src={casquette} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo" >Cortiez casquette rose</h5>
                                 <p class="card-text mt-3 prix">25€ <span class="maclasse">45€</span></p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="col-sx-6 col-sm-3 col-md-3 col-lg-3">
                             <img src={timberland} class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Timberland 6 INCH PREMIUM</h5>
@@ -250,7 +250,7 @@ function App() {
                             <img src={arte}  class="card-img-top habits"></img>
                             <div class="card-body">
                                 <h5 class="card-title mt-3 produitpromo">Arte veste</h5>
-                                <p class="card-text mt-  prix ">80€ <span class="maclasse">130€</span></p>
+                                <p class="card-text mt-3  prix ">80€ <span class="maclasse">130€</span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6 col-lg-3 rounded ">
